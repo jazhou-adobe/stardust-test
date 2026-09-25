@@ -1,0 +1,129 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-22T01:15:00Z",
+    "againstInput": "https://www.nab.com.au/",
+    "readArtifacts": [
+      "stardust/current/_brand-extraction.json",
+      "stardust/current/DESIGN.md",
+      "stardust/current/pages/*.json",
+      "stardust/current/assets/screenshots/*.png"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0",
+    "note": "Sidecar for stardust/current/DESIGN.md. Carries what the DESIGN.md frontmatter schema cannot hold: shadows, breakpoints, component snippets, narrative, and stardust's componentStyle/motifs/voice extensions."
+  },
+  "schemaVersion": 2,
+  "name": "NAB",
+  "colorMeta": {
+    "nab-red": {
+      "displayName": "NAB Red",
+      "roleHint": "brand + primary action",
+      "occurrences": 74,
+      "note": "Brand colour and primary action, but NOT the conversion colour — see action-green."
+    },
+    "action-green": {
+      "displayName": "Action Green",
+      "roleHint": "single highest-intent action per page",
+      "occurrences": 3,
+      "note": "Appears 3 times across 5 pages. Two on one page would be a defect."
+    },
+    "banking-slate": {
+      "displayName": "Banking Slate",
+      "roleHint": "utility chrome",
+      "occurrences": 5,
+      "note": "Used by exactly one element site-wide: the header's Internet Banking selector."
+    },
+    "page-grey": { "displayName": "Page Grey", "roleHint": "page background", "occurrences": 69110, "note": "Measured from body computed style and confirmed at 47% of sampled home-page pixels." },
+    "ink-black": { "displayName": "Ink Black", "roleHint": "text + header structure", "occurrences": 360 },
+    "surface-white": { "displayName": "Surface White", "roleHint": "cards and panels", "occurrences": 68 },
+    "rule-grey": { "displayName": "Rule Grey", "roleHint": "hairlines and card borders", "occurrences": 95 }
+  },
+  "typographyMeta": {
+    "family": "Source Sans Pro",
+    "licensing": "SIL OFL 1.1 — freely self-hostable on a target domain",
+    "selfHosted": true,
+    "files": [
+      "stardust/current/assets/fonts/source-sans-pro-light.woff2",
+      "stardust/current/assets/fonts/source-sans-pro-regular.woff2",
+      "stardust/current/assets/fonts/source-sans-pro-semibold.woff2",
+      "stardust/current/assets/fonts/source-sans-pro-bold.woff2"
+    ],
+    "coverage": "4126 of 4131 captured visible elements resolve to this stack",
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [14, 16, 20, 24, 32, 48],
+      "ratios": [1.14, 1.25, 1.2, 1.33, 1.5],
+      "note": "Not a modular scale. Sizes sit on a 4px grid; weight carries the hierarchy."
+    }
+  },
+  "shadows": {
+    "card": { "value": "0 0 4px rgb(128, 128, 128)", "occurrences": 25, "note": "Non-directional grey halo; pairs with a 1px #B3B3B3 border which does the actual separating." },
+    "card-alt": { "value": "0 0 4px rgba(0, 0, 0, 0.32)", "occurrences": 10 },
+    "overlay": { "value": "0 1px 3px rgba(0, 0, 0, 0.6)", "occurrences": 5 },
+    "philosophy": "flat-with-one-shadow — no elevation scale exists; depth is tonal layering (black header / grey page / white card)"
+  },
+  "breakpoints": {
+    "captured": [1440],
+    "note": "This extraction rendered at 1440x900 @2x only. Responsive behaviour is UNMEASURED; any downstream work needing mobile must re-capture."
+  },
+  "motion": {
+    "captured": false,
+    "note": "Pages were rendered with prefers-reduced-motion: reduce, so transitions and scroll behaviour were deliberately suppressed. Motion is unmeasured. One dynamic behaviour WAS observed indirectly: the home and /personal mastheads rotate campaign slides server-side per request."
+  },
+  "extensions": {
+    "componentStyle": {
+      "buttonPrimary": { "background": "#C20000", "color": "#FFFFFF", "border": "1px solid #C20000", "radius": "4px", "padding": "10px 24px", "fontSize": "16px", "fontWeight": 700, "occurrences": 14 },
+      "buttonConversion": { "background": "#2C853C", "color": "#FFFFFF", "border": "1px solid #2C853C", "radius": "4px", "padding": "10px 24px", "fontSize": "16px", "fontWeight": 700, "occurrences": 3, "rule": "one per page, on the highest-intent action" },
+      "buttonOnRed": { "background": "#000000", "color": "#FFFFFF", "radius": "4px", "padding": "13px 24px", "fontSize": "16px", "fontWeight": 700, "occurrences": 2, "rule": "used only where the surface behind is NAB red" },
+      "buttonTertiary": { "background": "transparent", "color": "#C20000", "border": "none", "radius": "4px", "padding": "12px 4px", "fontSize": "16px", "fontWeight": 400, "occurrences": 23, "note": "the most common action on the site — an underlined red text link with a trailing chevron" },
+      "card": { "background": "#FFFFFF", "border": "1px solid #B3B3B3", "radius": "8px", "shadow": "0 0 4px rgb(128,128,128)", "titleSize": "24px", "titleWeight": 700, "bodySize": "16px", "affordance": "red right-chevron pinned to the right of the title row" },
+      "input": { "background": "#FFFFFF", "border": "1px solid #B3B3B3", "radius": "4px", "fontSize": "16px" },
+      "siteHeader": { "background": "#000000", "height": "64px", "position": "relative", "activeMarker": "2px #C20000 underline", "customProperty": "--header-bar-height: 64px" }
+    },
+    "motifs": {
+      "borderRadius": { "primary": "4px", "secondary": "8px", "circle": "50%", "pill": null },
+      "gradients": [],
+      "patterns": [
+        "masthead-with-overlay-card",
+        "card-grid",
+        "quick-links-list",
+        "icon-card",
+        "sticky-subnav",
+        "topic-selector",
+        "side-tab",
+        "chevron-affordance"
+      ],
+      "signature": "The NAB six-point star — logo, hole punched through walls in photography, outlined line-motif across the /business masthead, and printed on the cards.",
+      "photography": "Editorial, warmly lit, people-centred, staged around the star. Studio lighting rigs are deliberately left in frame, so the imagery reads as knowingly constructed rather than documentary.",
+      "imageDelivery": "Every hero and card image is an <img>/<picture> at 1440x480 rendered. Zero CSS background images across all 5 captured pages."
+    },
+    "voice": {
+      "brandLine": "more than money",
+      "heroHeadline": "Ready for a new everyday account?",
+      "heroRotates": true,
+      "primaryCTALabel": "Get started",
+      "ctaSamples": ["Get started", "Find out more", "Talk to an expert", "Learn more", "Explore ways to bank with us", "View all calculators"],
+      "navItems": ["Personal", "Business", "Corporate", "About us", "Help and support"],
+      "footerHeadings": ["Quick links", "About us", "Policies and terms", "Connect with us"],
+      "register": "Second person, present tense, plainly reassuring. Names the reader's situation before the product; 7 of 17 captured section headings are questions. Promises are unhedged then immediately qualified by a separate compliance sentence. Effort is quantified.",
+      "antiReferences": ["no exclamation marks", "no superlatives in NAB's own voice", "no urgency devices beyond dated promotional terms", "no jargon in headings"]
+    },
+    "systemComponents": [
+      { "name": "site-header", "presentOn": 5, "of": 5 },
+      { "name": "site-footer", "presentOn": 5, "of": 5 },
+      { "name": "site-search", "presentOn": 5, "of": 5, "detail": "GET /search, field name 'term'" },
+      { "name": "breadcrumb", "presentOn": 2, "of": 5, "detail": "absent on home" },
+      { "name": "feedback-side-tab", "presentOn": 1, "of": 5 }
+    ],
+    "northStar": "The Plain-Spoken Counter",
+    "rules": [
+      "One typeface; weight carries hierarchy (300 display / 700 card titles / 600 links).",
+      "Exactly one green action per page.",
+      "Never a red button on a red surface — switch to black.",
+      "No gradients, no pills, no second family, no letter-spacing adjustments.",
+      "The red chevron is the universal 'there is more here' mark.",
+      "The compliance sentence sits under the promise at the same size."
+    ]
+  }
+}

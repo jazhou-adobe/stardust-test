@@ -1,0 +1,68 @@
+/*
+ * National Relay Service.
+ * Desktop: index.css 318-344. The block root closes the life band and so
+ *          carries its 80px bottom ground.
+ * Mobile:  mobile.css 441-495.
+ */
+
+.nrs {
+  display: grid;
+  width: var(--container);
+  margin: 72px auto 0;
+  padding-bottom: 80px;
+  gap: 32px;
+  grid-template-columns: repeat(2, 608px);
+}
+
+.nrs .nrs__prose h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.nrs .nrs__prose p {
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* index.css 355-366 scopes these to .nrs, not the prose column, so the
+   sibling link list inherits the same red underlined treatment. */
+.nrs a {
+  color: var(--nab-red);
+  text-decoration: underline;
+}
+
+.nrs a .nab-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 4px;
+  fill: var(--nab-red);
+  vertical-align: -6px;
+}
+
+@media (max-width: 767px) {
+  .nrs {
+    display: block;
+    width: 312px;
+    margin: 56px auto 0;
+  }
+
+  .nrs .nrs__prose {
+    width: 312px;
+  }
+
+  .nrs .nrs__prose h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .nrs .nrs__prose p {
+    margin-top: 16px;
+  }
+
+  .nrs > .cmp-list {
+    margin-top: 16px;
+  }
+}

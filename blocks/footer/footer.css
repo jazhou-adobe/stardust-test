@@ -1,20 +1,253 @@
-footer {
-  background-color: var(--light-color);
-  font-size: var(--body-font-size-xs);
+/*
+ * NAB replica footer chrome.
+ *
+ * Lifted from stardust/prototypes/canon.css (383-475, 548-568),
+ * stardust/prototypes/index.css (375-403, the shared accordion base) and
+ * stardust/prototypes/mobile.css (503-562, plus the >=768 hide at 564).
+ *
+ * The accordion metrics at <=767 are pinned: 57px items (58px on the last,
+ * which also carries a bottom border), #808080 separators, a 24px label
+ * line-height with 4px content-box padding, and a 12px/16px 56px-high button.
+ * They remove a 1px-per-item fractional drift - do not round them.
+ */
+
+.footer .nab-footer {
+  position: relative;
+  padding: 0 0 128px;
+  background: var(--ink);
+  color: #fff;
 }
 
-footer .footer > div {
-  margin: auto;
-  max-width: 1200px;
-  padding: 40px 24px 24px;
+.footer .nab-footer__back-to-top-link {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  padding: 4px 15px 6px;
+  border: 1px solid var(--nab-red);
+  border-radius: 4px;
+  background: var(--nab-red);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: underline;
+  transform: translateX(-50%);
 }
 
-footer .footer p {
+.footer .nab-footer__back-to-top-icon {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+
+.footer .nab-footer__columns {
+  display: grid;
+  padding-top: 64px;
+  gap: 16px;
+  grid-template-columns: repeat(4, 300px);
+}
+
+.footer .nab-footer__heading {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.footer .nab-footer__link {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  gap: 4px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.footer .nab-footer__link:last-child {
+  margin-bottom: 0;
+}
+
+.footer .nab-footer__link .cmp-list__item-title {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.footer .nab-footer__link .nab-icon {
+  fill: #fff;
+}
+
+/* Live keeps the sr-only suffix in flow, so the trailing icon carries a second
+   4px gap - the footer links measure 4px wider than a single-gap build. */
+.footer .nab-footer__link svg {
+  margin-left: 4px;
+}
+
+/* A leading social icon carries its gap on the other side. */
+.footer .nab-footer__link svg:first-child {
+  margin-left: 0;
+}
+
+.footer .nab-footer__legal {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.footer .nab-footer__legal p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer .nab-footer__legal p + p {
+  margin-top: 16px;
+}
+
+.footer .nab-footer__legal a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* ---------- shared accordion base (index.css 375-403) ---------- */
+
+.footer .nab-accordion__header {
   margin: 0;
+  font: inherit;
 }
 
-@media (width >= 900px) {
-  footer .footer > div {
-    padding: 40px 32px 24px;
+.footer .nab-accordion__item {
+  width: var(--container);
+  margin: 0 auto;
+  border-top: 1px solid var(--halo-grey);
+  border-bottom: 1px solid var(--halo-grey);
+}
+
+.footer .nab-accordion__button {
+  display: flex;
+  width: 100%;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.footer .nab-accordion__title,
+.footer .nab-accordion__title__description {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+/* ---------- 0 -> 767 ---------- */
+
+@media (max-width: 767px) {
+  .footer .nab-footer {
+    padding-bottom: 0;
+  }
+
+  .footer .nab-footer__columns {
+    display: none;
+  }
+
+  .footer .nab-footer__accordion {
+    display: block;
+    width: 312px;
+    margin: 0 auto;
+    padding: 64px 0 0;
+  }
+
+  .footer .nab-accordion__title,
+  .footer .nab-accordion__title__description {
+    height: 24px;
+    box-sizing: content-box;
+    padding: 4px 0;
+    line-height: 24px;
+  }
+
+  .footer .nab-accordion__title__header {
+    height: auto;
+  }
+
+  .footer .nab-accordion__item {
+    width: 312px;
+    height: 57px;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+    border-top: 1px solid #808080;
+    list-style: none;
+  }
+
+  .footer .nab-accordion__item:last-child {
+    height: 58px;
+    border-bottom: 1px solid #808080;
+  }
+
+  /*
+   * Open state. The capture never recorded it (live lazy-loads the panel), so
+   * this is the minimum that reveals the borrowed column: release the pinned
+   * closed height. Recorded as an advisory delta in state.json.
+   */
+  .footer .nab-accordion__item--open,
+  .footer .nab-accordion__item--open:last-child {
+    height: auto;
+    overflow: visible;
+  }
+
+  .footer .nab-accordion__panel {
+    padding: 0 16px 16px;
+  }
+
+  .footer .nab-accordion__panel .nab-footer__link {
+    display: block;
+    padding: 4px 0;
+  }
+
+  .footer .nab-accordion__button {
+    height: 56px;
+    box-sizing: border-box;
+    padding: 12px 16px;
+    border-bottom: 0;
+    border-bottom-color: rgb(255 255 255 / 40%);
+    color: #fff;
+
+    /* mobile.css 181 sets this on every accordion button; without it the
+       label falls back to the UA button face. */
+    font-family: inherit;
+  }
+
+  .footer .nab-accordion__chevron {
+    width: 24px;
+    height: 24px;
+    flex: none;
+  }
+
+  .footer .nab-footer__legal {
+    width: 312px;
+    margin: 0 auto;
+    padding: 16px 0 160px;
+  }
+
+  .footer .nab-footer__back-to-top-link {
+    left: 180px;
+  }
+}
+
+/* ---------- 768 and up ---------- */
+
+@media (min-width: 768px) {
+  .footer .nab-footer__accordion {
+    display: none;
   }
 }

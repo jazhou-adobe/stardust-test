@@ -1,0 +1,592 @@
+/*
+ * NAB replica — shared canon layer.
+ * Every value here is LIFTED from www.nab.com.au computed styles
+ * (stardust/replica/capture/lift-1440.json + elements-1440.json).
+ * No taste decisions: a value with no captured source is a fidelity bug.
+ */
+
+@font-face {
+  font-family: source-sans-pro;
+  src: url("assets/fonts/source-sans-pro-light.woff2") format("woff2");
+  font-weight: 300;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: source-sans-pro;
+  src: url("assets/fonts/source-sans-pro-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: source-sans-pro;
+  src: url("assets/fonts/source-sans-pro-semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: source-sans-pro;
+  src: url("assets/fonts/source-sans-pro-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+}
+
+:root {
+  --header-bar-height: 50px;
+  --nab-red: #c20000;
+  --nab-login-red: #be0d00;
+  --banking-slate: #3e5058;
+  --page-grey: #f5f5f5;
+  --panel-grey: #e6e6e6;
+  --surface-white: #fff;
+  --rule-grey: #b3b3b3;
+  --halo-grey: #808080;
+  --ink: #000;
+  --nav-ink: #fcfeff;
+  --container: 1248px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--page-grey);
+  color: var(--ink);
+  font-family: source-sans-pro, helvetica, -apple-system, blinkmacsystemfont, "Segoe UI", roboto, oxygen-sans, ubuntu, cantarell, "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  color: inherit;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+
+.container {
+  width: var(--container);
+  margin: 0 auto;
+}
+
+/* ---------- type ramp (lifted) ---------- */
+
+.t-display {
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 54px;
+}
+
+.t-h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.t-h3 {
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.t-card-title {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.t-body {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+/* ---------- buttons (lifted componentStyle) ---------- */
+
+.nab-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.nab-button--primary {
+  min-height: 48px;
+  padding: 10px 24px;
+  border: 1px solid var(--nab-red);
+  background: var(--nab-red);
+  color: #fff;
+  font-weight: 700;
+}
+
+.nab-button--tertiary {
+  padding: 12px 4px;
+  border: none;
+  background: transparent;
+  color: var(--nab-red);
+  font-weight: 400;
+}
+
+.nab-button--tertiary .nab-button__label {
+  text-decoration: underline;
+}
+
+.nab-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  fill: currentcolor;
+}
+
+/* ---------- chevron list (the site's most repeated module) ---------- */
+
+.cmp-list {
+  display: block;
+}
+
+.cmp-list__item {
+  border-top: 1px solid var(--rule-grey);
+}
+
+.cmp-list__item:last-child {
+  border-bottom: 1px solid var(--rule-grey);
+}
+
+.cmp-list__item-link {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  min-height: 48px;
+  padding: 8px 0;
+  color: var(--ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.cmp-list__item-link .cmp-list__item-title {
+  flex: 1;
+}
+
+.cmp-list__item-icon {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  fill: var(--nab-red);
+}
+
+/* ---------- link card ---------- */
+
+.nab-link-card {
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgb(128 128 128);
+  overflow: hidden;
+}
+
+.nab-link-card__media {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.nab-link-card__inner-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 16px 24px 24px;
+  background: var(--surface-white);
+}
+
+.nab-link-card__body {
+  flex: 1;
+}
+
+.nab-link-card__title {
+  margin: 0;
+  font: inherit;
+}
+
+.nab-link-card__link {
+  display: block;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.nab-link-card__description {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nab-link-card__chevron {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  margin-top: 4px;
+  fill: var(--nab-red);
+}
+
+/* ---------- site header (black bar, 64px) ---------- */
+
+.nab-header-bar {
+  background: var(--ink);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 60%);
+}
+
+.nab-header-bar--inner {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  margin: 0 80px;
+}
+
+.nab-header-bar__logo {
+  display: block;
+  margin: 7px 0 7px 8px;
+}
+
+.nab-header-bar__logo img {
+  box-sizing: border-box;
+  width: 88px;
+  height: 50px;
+  padding: 5.5px 9.5px;
+}
+
+.nab-header-bar__nav {
+  display: flex;
+  margin-left: 28px;
+}
+
+.mega-menu-anchor {
+  display: flex;
+  align-items: center;
+  height: 64px;
+  padding: 0 20px;
+  color: var(--nav-ink);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.nab-header-search {
+  margin-left: auto;
+}
+
+.nab-header-search__search-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 48px;
+  height: 48px;
+  margin: 8px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.nab-header-search__search-button .nab-icon {
+  fill: #fff;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  height: 64px;
+  padding: 5px;
+  background: var(--banking-slate);
+}
+
+.login-select-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+  height: 40px;
+  padding: 0 10px;
+  border: 0;
+  background: transparent;
+  color: #fff;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.4px;
+  cursor: pointer;
+}
+
+.login-select-desktop .nab-icon {
+  width: 25px;
+  height: 25px;
+  fill: #fff;
+}
+
+.quick-login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95px;
+  height: 40px;
+  margin-left: 5px;
+  border-radius: 4px;
+  background: var(--nab-login-red);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration: none;
+}
+
+/* ---------- site footer (black) ---------- */
+
+.nab-footer {
+  position: relative;
+  padding: 0 0 128px;
+  background: var(--ink);
+  color: #fff;
+}
+
+.nab-footer__back-to-top-link {
+  position: absolute;
+  top: -32px;
+  left: 50%;
+  width: 64px;
+  height: 64px;
+  transform: translateX(-50%);
+  padding: 4px 15px 6px;
+  border: 1px solid var(--nab-red);
+  border-radius: 4px;
+  background: var(--nab-red);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.nab-footer__back-to-top-icon {
+  width: 32px;
+  height: 32px;
+  fill: #fff;
+}
+
+.nab-footer__columns {
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  gap: 16px;
+  padding-top: 64px;
+}
+
+.nab-footer__heading {
+  margin-bottom: 16px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 32px;
+}
+
+.nab-footer__link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  width: fit-content;
+  margin-bottom: 12px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.nab-footer__link:last-child {
+  margin-bottom: 0;
+}
+
+.nab-footer__link .cmp-list__item-title {
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.nab-footer__link .nab-icon {
+  fill: #fff;
+}
+
+.nab-footer__legal {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.nab-footer__legal p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.nab-footer__legal p + p {
+  margin-top: 16px;
+}
+
+.nab-footer__legal a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+/* Visually-hidden h1 the live page carries off-canvas (role parity). */
+.sr-only--h1 {
+  position: absolute;
+  top: -1px;
+  left: -1px;
+  width: 1px;
+  height: 48px;
+  overflow: hidden;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 48px;
+}
+
+.skip-links__link {
+  position: absolute;
+  left: 720px;
+  top: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  color: #fff;
+}
+
+/* Capture-state: replicates the live page's trailing inline tracking pixel,
+   whose 24px line box is part of the captured document height. */
+.capture-state-tracking img {
+  display: inline;
+}
+
+/* Hidden interactive surfaces (mega-menu, notification banner, search,
+   login menus, disclaimer panel). display:none on live and here. */
+.nab-accordion__header {
+  margin: 0;
+  font: inherit;
+}
+
+.replica-offscreen {
+  display: none;
+}
+
+/* The hidden surfaces resolve computed styles even while display:none, and the
+   content probes classify roles from them — so the badge eyebrow keeps its
+   lifted typography. */
+.replica-offscreen .nab-badge__text {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* Live's mega-menu offers panel is dark-ground; mirror its heading colour so
+   the probes read the same surface/ground pairing. */
+.replica-offscreen .paragraph-text {
+  color: #fff;
+}
+
+/* Live's footer accordion labels inherit the dark footer ground. */
+.replica-offscreen h2.nab-accordion__header {
+  color: #fff;
+}
+
+/* Chrome parity (lifted from the live computed styles). */
+.cmp-title__text {
+  display: block;
+}
+
+.mega-menu-anchor {
+  align-items: flex-start;
+  padding: 20px 20px 18px;
+}
+
+.nab-footer__back-to-top-link {
+  text-decoration: underline;
+}
+
+.login-select-desktop .current-dropdown-item {
+  display: inline-block;
+  height: 22px;
+  line-height: 18.4px;
+}
+
+/* Live keeps the sr-only suffix in flow, so the trailing icon carries a second
+   4px gap — the footer links measure 4px wider than a single-gap build. */
+.nab-footer__link svg {
+  margin-left: 4px;
+}
+
+/* A leading social icon carries its gap on the other side. */
+.nab-footer__link svg:first-child {
+  margin-left: 0;
+}
+
+/* replica: header sr-only trigger + hidden login-options chevron (live parity) */
+.nab-header-bar__mega-menu {
+  position: absolute;
+  left: -1px;
+  top: 49px;
+  width: 1px;
+  height: 1px;
+  margin: 0;
+  overflow: hidden;
+}
+
+.login-options-desktop {
+  position: absolute;
+  left: 303px;
+  top: 63px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.login-options-desktop .nab-icon {
+  width: 24px;
+  height: 24px;
+}

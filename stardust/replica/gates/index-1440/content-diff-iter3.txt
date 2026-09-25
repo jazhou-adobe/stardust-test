@@ -1,0 +1,370 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 537 text nodes — 6 headings, 3 eyebrows, 415 CTAs, 113 body; 26 img
+  build: 566 text nodes — 24 headings, 0 eyebrows, 156 CTAs, 386 body; 27 img
+  editable texts (outermost h*/p/ul/ol): source 67 / build 76
+
+Findings: 363 (291 structural 🔴)
+  🔴 ROLE SWAP: "Get it from the app store" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Get a supported browser" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Main menu" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Personal" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Personal home" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Bank accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Bank accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Visa Debit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Term Deposit" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Joint bank accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Open an account online" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Open a bank account for a child" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Help me choose a bank account" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Home loans" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Basic variable rate" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Tailored variable rate with offset" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Tailored fixed rate" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "What will my repayments be?" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "How much can I borrow?" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "How to calculate stamp duty" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "How much equity do I have?" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Investing in property" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Home and property guides" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Talking to a home loan expert" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Qantas Rewards credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Low Rate Credit Card" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Rewards credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Low Fee Card" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB credit card features and benefits" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Discover current offers" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Personal loans" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Buying a car" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Consolidating debts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Renovating your home" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Weddings" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Holidays and travel" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Making a major purchase" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Borrowing power calculator" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Personal loan repayment calculator" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Debt consolidation calculator" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Premier Banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Online banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Online banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Internet Banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Digital payments" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "The NAB app" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Fast Payments guide" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Learn more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Trading and investments" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Trading and investments" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Online investing - nabtrade" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Investment lending" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Cash management" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Self Managed Super Funds (SMSF)" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Financial advice" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Private Wealth" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Private Wealth" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Banking solutions" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Investment solutions" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Advice solutions" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Our clients" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Private banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Explore the latest wealth, market and investment" → https://business.nab.com.au/tag/investments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Insurance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Insurance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Home and Contents Insurance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Landlord Insurance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Car Insurance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Caravan and trailer insurance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Complimentary card insurances" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "International" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "International" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Transfer money overseas" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "International transaction fees on your c" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Foreign exchange calculator and rates" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "International banking for your business" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Learn more about international transfers" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business home" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business bank accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business transaction accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Specialised accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Most popular" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Find out more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Loans and finance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Sustainable finance for business" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business loans" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business overdrafts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business car and equipment finance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Trade and invoice finance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Bank guarantee" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Home loans for business owners" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Find out more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Book a business loan appointment" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business loan repayment calculator" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business credit card benefits" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Rewards Business Signature Card" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Qantas Business Signature Card" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Low Rate Business Card" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Business Card" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Purchasing and corporate credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Offer" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Find out more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "EFTPOS, payments and merchants" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "EFTPOS, payments and merchants" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Accepting payments in person" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "eCommerce and online payments" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Billing and recurring payments" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Making payments" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Merchant support centre" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Offer" is a eyebrow in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Find out more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Online banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Online banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Connect online banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Direct Link" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Internet Banking for business" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Mobile app for business" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Compare online banking platforms" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "View our online security tips" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Connect help guides" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Join us today" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "International and foreign exchange" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "International and foreign exchange" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "International money transfers for busine" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Financial markets" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "International payments" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Find out more about international transf" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Industry specific banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Small business" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Small business" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business Moments" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Sole Trader Resource Centre" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Learn more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Business Benefits" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Corporate" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Global relationships" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Industry expertise" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Industry expertise" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Innovating in the property sector" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Other specialised industries" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Listen now , opens in new window" → https://shows.acast.com/morningcall has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Specialist solutions" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Specialist solutions" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Specialised finance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Creating value through working capital" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Transaction banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Managing market risk" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Partnering with investors" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Building global infrastructure" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Climate and environment" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Research and insights" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "About us" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Security" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Security" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Latest scams, phishing messages and frau" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Cyber safety training" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Personal security hub" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business security hub" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Catch the replay" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Careers" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Careers" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Why work at NAB" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Search and apply for jobs" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Our business areas" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Graduate jobs and early careers" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "First Nations careers" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Sustainability" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Disaster relief and support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Foundation" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Environment" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Customer and community support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Reporting, policies and approach" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Climate action" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "First Nations" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Corporate Governance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Collecting your tax information" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Managing financial crime" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "National Australia Bank Ltd Code of Cond" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Code of Operation" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Shareholder Centre" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Dividend information" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Financial calendar" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Financial disclosures and reporting" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Annual General Meeting" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "General shareholding enquiries" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "ASX announcement" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Capital and funding" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "News and Media" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Life's about more than money" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Life's about more than money" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Our sponsorships" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Learn more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Accessibility" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Accessibility action plan" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Branch, ATM and payments accessibility" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Web accessibility" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Mobile app accessibility" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Help and support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Help with personal banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Help with personal banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Online banking support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Credit and debit card support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Home loan support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Personal loan support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Term deposit support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Payments and transfers support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Identify and report fraud and scams" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Dispute a transaction" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "How to give us feedback" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Improve your financial literacy" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Learn more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Help with business banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Help with business banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Online business banking help" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Managing your NAB business credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Online Business Lending Support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB Connect guides" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Merchant support centre" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Contact us" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Financial assistance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Home loan financial assistance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Credit card and personal loan financial " is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business financial assistance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Understanding your credit report" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Identify and report fraud and scams" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Dispute a transaction" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "How to give us feedback" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Contact us" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Improve your financial literacy" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Learn more" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Extra Care support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "First Nations support" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Financial wellbeing" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Losing a loved one" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Ways to bank with us" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Service Status" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Login" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Login" → https://ib.nab.com.au/login has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "NAB Homepage" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Find out more" → /personal/bank-accounts/transaction-accounts/nab-classic-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Transaction accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Savings accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Personal loans" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "More Everyday banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "More Credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Home loans" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "More Home loans" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business bank accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business credit cards" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "More Business banking" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Thinking about refinancing?" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Need help choosing an account?" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Get the most out of business banking" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Loans and finance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Business savings accounts" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Award-winning banking" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "We’re here to help with whatever life lo" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Buying your first home" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Small Business Hub" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "More reasons to choose NAB" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "How to contact us" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB banking contacts" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Visit a NAB branch" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Feedback" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Interpreters available" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Italiano , opens in new window" → /about-us/accessibility-inclusion/interpreter-services/ita has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "National Relay Service" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "National Relay Service phone numbers and links ," → https://www.accesshub.gov.au/about-the-nrs/nrs-call-numbers-and-links has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "National Relay Service options , opens in new wi" → https://www.accesshub.gov.au/services has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Quick links" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Contact us" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Financial assistance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "About us" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Shareholder Centre" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Careers at NAB , opens in new window" → https://careers.nab.com.au/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Accessibility" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Sustainability" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Corporate governance" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Policies and terms" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Banking Code of Practice" is a cta in the source but a body in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Connect with us" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "LinkedIn , opens in new window" → https://www.linkedin.com/company/national-australia-bank has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Facebook , opens in new window" → https://www.facebook.com/NAB has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Instagram , opens in new window" → https://www.instagram.com/nab/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "YouTube , opens in new window" → https://www.youtube.com/user/nab has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "X , opens in new window" → https://x.com/NAB has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "TikTok , opens in new window" → https://www.tiktok.com/@nab has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA: build heading "Looking for a Personal Loan?" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Italiano, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "National Relay Service phone numbers and links, " has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "National Relay Service options, opens in new win" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Careers at NAB, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "LinkedIn, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Facebook, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Instagram, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "YouTube, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "X, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "TikTok, opens in new window" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY: source body "Bank with NAB | Bank accounts, home loans and cr"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "window.onload = function () { var ie11Regex = /T"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Ready for a new everyday account?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "With our NAB Classic Banking account you'll get "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Open in less than 5 minutes"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Everyday banking"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Credit cards"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Home loans"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Business banking"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "<!-- No JS: force visible (anti-flash CSS can't "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "<p>This section contains Important Information r"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Quick links"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Policies and terms"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Connect with us"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA: build body "Personal" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Business" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Explore the latest wealth, market and investment" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body ", opens in new window" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Corporate" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Listen now" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body ", opens in new window" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Help and support" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "&lt;!-- No JS: force visible (anti-flash CSS can" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "&lt;p&gt;This section contains Important Informa" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Open an account online" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Open a bank account for a child" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Help me choose a bank account" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "What will my repayments be?" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "How much can I borrow?" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "How to calculate stamp duty" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "How much equity do I have?" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Buying your first home" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Investing in property" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Home and property guides" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Talking to a home loan expert" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Borrowing power calculator" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Personal loan repayment calculator" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Debt consolidation calculator" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Foreign exchange calculator and rates" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "International banking for your business" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Book a business loan appointment" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Business loan repayment calculator" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Compare online banking platforms" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "View our online security tips" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "NAB Connect help guides" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Climate action" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "First Nations" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Identify and report fraud and scams" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Dispute a transaction" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "How to give us feedback" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Contact us" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Improve your financial literacy" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "NAB Connect guides" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Merchant support centre" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Contact us" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Identify and report fraud and scams" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Dispute a transaction" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "How to give us feedback" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Contact us" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "Improve your financial literacy" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EXTRA: build body "We offer competitive interest rates, no exit fee" has no source source — Build copy with no source — invented/placeholder; confirm intended.

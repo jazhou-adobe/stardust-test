@@ -1,0 +1,338 @@
+{
+ "Everyday banking": [
+  {
+   "chain": [
+    "a.cmp-title__link",
+    "span.cmp-title__text.h3",
+    "span",
+    "h3.cmp-title__heading"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span.nab-accordion__title__description",
+    "span.nab-accordion__title__header",
+    "button#nab-button--2051472726-0.nab-accordion__button",
+    "h3.nab-accordion__button_header"
+   ],
+   "hidden": true
+  }
+ ],
+ "Credit cards": [
+  {
+   "chain": [
+    "a.childList.mega-menu-anchor",
+    "li.mega-menu-li.navigation__item--level-2",
+    "ul",
+    "li.mega-menu-li.navigation__item--level-1"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "span",
+    "a.mega-menu-anchor.menu-trigger",
+    "li.mega-menu-li.navigation__item--level-2",
+    "ul.dropdown.mega-menu.hidden"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "span",
+    "a.mega-menu-anchor",
+    "li.navigation__item--level-3.parent.mega-menu-li",
+    "ul.dropdown"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "a.cmp-title__link",
+    "span.cmp-title__text.h3",
+    "span",
+    "h3.cmp-title__heading"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span.nab-accordion__title__description",
+    "span.nab-accordion__title__header",
+    "button#nab-button--2051472726-1.nab-accordion__button",
+    "h3.nab-accordion__button_header"
+   ],
+   "hidden": true
+  }
+ ],
+ "Home loans": [
+  {
+   "chain": [
+    "a.childList.mega-menu-anchor",
+    "li.mega-menu-li.navigation__item--level-2",
+    "ul",
+    "li.mega-menu-li.navigation__item--level-1"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "span",
+    "a.mega-menu-anchor.menu-trigger",
+    "li.mega-menu-li.navigation__item--level-2",
+    "ul.dropdown.mega-menu.hidden"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "span",
+    "a.mega-menu-anchor",
+    "li.navigation__item--level-3.parent.mega-menu-li",
+    "ul.dropdown"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "a.cmp-title__link",
+    "span.cmp-title__text.h3",
+    "span",
+    "h3.cmp-title__heading"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span.nab-accordion__title__description",
+    "span.nab-accordion__title__header",
+    "button#nab-button--2051472726-2.nab-accordion__button",
+    "h3.nab-accordion__button_header"
+   ],
+   "hidden": true
+  }
+ ],
+ "Business banking": [
+  {
+   "chain": [
+    "a.cmp-title__link",
+    "span.cmp-title__text.h3",
+    "span",
+    "h3.cmp-title__heading"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span.nab-accordion__title__description",
+    "span.nab-accordion__title__header",
+    "button#nab-button--2051472726-3.nab-accordion__button",
+    "h3.nab-accordion__button_header"
+   ],
+   "hidden": true
+  }
+ ],
+ "Buying your first home": [
+  {
+   "chain": [
+    "span.cmp-list__item-title",
+    "a.cmp-list__item-link",
+    "li.cmp-list__item",
+    "ul.cmp-list"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "a.nab-link-card__link",
+    "h3.nab-link-card__title",
+    "span.nab-link-card__content",
+    "div.nab-link-card__inner-container"
+   ],
+   "hidden": false
+  }
+ ],
+ "Small Business Hub": [
+  {
+   "chain": [
+    "span",
+    "a.mega-menu-anchor",
+    "li.mega-menu-li.navigation__item--level-3",
+    "ul.dropdown"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "a.nab-link-card__link",
+    "h3.nab-link-card__title",
+    "span.nab-link-card__content",
+    "div.nab-link-card__inner-container"
+   ],
+   "hidden": false
+  }
+ ],
+ "Moving to Australia": [
+  {
+   "chain": [
+    "a.nab-link-card__link",
+    "h3.nab-link-card__title",
+    "span.nab-link-card__content",
+    "div.nab-link-card__inner-container"
+   ],
+   "hidden": false
+  }
+ ],
+ "Managing your money": [
+  {
+   "chain": [
+    "a.nab-link-card__link",
+    "h3.nab-link-card__title",
+    "span.nab-link-card__content",
+    "div.nab-link-card__inner-container"
+   ],
+   "hidden": false
+  }
+ ],
+ "NAB Goodies": [
+  {
+   "chain": [
+    "a.nab-link-card__link",
+    "h3.nab-link-card__title",
+    "span.nab-link-card__content",
+    "div.nab-link-card__inner-container"
+   ],
+   "hidden": false
+  }
+ ],
+ "Footy Perks": [
+  {
+   "chain": [
+    "a.nab-link-card__link",
+    "h3.nab-link-card__title",
+    "span.nab-link-card__content",
+    "div.nab-link-card__inner-container"
+   ],
+   "hidden": false
+  }
+ ],
+ "Important Information": [
+  {
+   "chain": [
+    "span.nab-accordion__title",
+    "button#button--1754297723-.nab-accordion__button",
+    "h2.nab-accordion__header",
+    "div.nab-accordion__content"
+   ],
+   "hidden": false
+  }
+ ],
+ "Quick links": [
+  {
+   "chain": [
+    "span.cmp-title__text.h2",
+    "span",
+    "h2.cmp-title__heading",
+    "div.cmp-title"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span.nab-accordion__title__description",
+    "span.nab-accordion__title__header",
+    "button#nab-button--1366208962-0.nab-accordion__button",
+    "h2.nab-accordion__button_header"
+   ],
+   "hidden": true
+  }
+ ],
+ "About us": [
+  {
+   "chain": [
+    "span",
+    "a.mega-menu-anchor",
+    "li.mega-menu-li.navigation__item--level-1",
+    "ul#navigation"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "a.mega-menu-anchor.menu-trigger",
+    "li.mega-menu-li.navigation__item--level-1",
+    "ul",
+    "nav.primary-nav"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span",
+    "a.mega-menu-anchor",
+    "li.navigation__item--level-2.parent.mega-menu-li",
+    "ul.dropdown.mega-menu.hidden"
+   ],
+   "hidden": true
+  },
+  {
+   "chain": [
+    "span.cmp-title__text.h2",
+    "span",
+    "h2.cmp-title__heading",
+    "div.cmp-title"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span.nab-accordion__title__description",
+    "span.nab-accordion__title__header",
+    "button#nab-button--1366208962-1.nab-accordion__button",
+    "h2.nab-accordion__button_header"
+   ],
+   "hidden": true
+  }
+ ],
+ "Policies and terms": [
+  {
+   "chain": [
+    "span.cmp-title__text.h2",
+    "span",
+    "h2.cmp-title__heading",
+    "div.cmp-title"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span.nab-accordion__title__description",
+    "span.nab-accordion__title__header",
+    "button#nab-button--1366208962-2.nab-accordion__button",
+    "h2.nab-accordion__button_header"
+   ],
+   "hidden": true
+  }
+ ],
+ "Connect with us": [
+  {
+   "chain": [
+    "span.cmp-title__text.h2",
+    "span",
+    "h2.cmp-title__heading",
+    "div.cmp-title"
+   ],
+   "hidden": false
+  },
+  {
+   "chain": [
+    "span.nab-accordion__title__description",
+    "span.nab-accordion__title__header",
+    "button#nab-button--1366208962-3.nab-accordion__button",
+    "h2.nab-accordion__button_header"
+   ],
+   "hidden": true
+  }
+ ]
+}

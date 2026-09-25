@@ -1,0 +1,187 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:replica",
+    "phase": "4 — source-fidelity gate",
+    "source": "https://www.nab.com.au/",
+    "scope": "home page only (bounded single-page entry)"
+  },
+  "archetypes": [
+    {
+      "slug": "index",
+      "type": "home",
+      "liveUrl": "https://www.nab.com.au/",
+      "prototype": "stardust/prototypes/index-proposed.html",
+      "css": [
+        "stardust/prototypes/canon.css",
+        "stardust/prototypes/index.css",
+        "stardust/prototypes/mobile.css"
+      ],
+      "status": "gated",
+      "breakpoints": {
+        "1440": {
+          "iterationsUsed": 3,
+          "cap": 3,
+          "gate": {
+            "contentDiff": {
+              "findings": 45,
+              "structuralRed": 0,
+              "result": "PASS",
+              "evidence": "stardust/replica/gates/index-1440/content-diff-final.txt"
+            },
+            "visualDiff": {
+              "flags": 5,
+              "allJustified": true,
+              "result": "PASS",
+              "evidence": "stardust/replica/gates/index-1440/visual-diff-final.txt"
+            },
+            "pixel": {
+              "diffPct": 0.99,
+              "differingPixels": 79940,
+              "totalPixels": 8038080,
+              "threshold": 10,
+              "result": "PASS",
+              "evidence": "stardust/replica/gates/index-1440/diff-final.png"
+            },
+            "height": { "live": 5582, "build": 5582, "deltaPx": 0, "result": "PASS" },
+            "chromeParity": {
+              "exit": 0,
+              "header": "7/7 texts, 3/3 icons",
+              "footer": "42/42 texts, 14/14 icons",
+              "result": "PASS",
+              "evidence": "stardust/replica/gates/index-1440/chrome-parity.txt"
+            },
+            "cropCompare": {
+              "header": { "region": "y0+64", "diffPct": 0.66, "result": "PASS" },
+              "footer": { "region": "y4838+720", "diffPct": 0.07, "result": "PASS" }
+            }
+          },
+          "hotBands": [
+            { "band": "0–500", "pct": 6.4, "cause": "server-rotated masthead slide — authored-volatile" }
+          ]
+        },
+        "360": {
+          "iterationsUsed": 3,
+          "cap": 3,
+          "gate": {
+            "contentDiff": {
+              "findings": 45,
+              "structuralRed": 0,
+              "result": "PASS",
+              "evidence": "stardust/replica/gates/index-360/content-diff-final.txt"
+            },
+            "visualDiff": {
+              "flags": 5,
+              "allJustified": true,
+              "result": "PASS",
+              "evidence": "stardust/replica/gates/index-360/visual-diff-final.txt"
+            },
+            "pixel": {
+              "diffPct": 2.24,
+              "differingPixels": 70084,
+              "totalPixels": 3129120,
+              "threshold": 10,
+              "result": "PASS",
+              "evidence": "stardust/replica/gates/index-360/diff-final.png"
+            },
+            "height": { "live": 8692, "build": 8692, "deltaPx": 0, "result": "PASS" },
+            "chromeParity": {
+              "exit": 0,
+              "header": "parity",
+              "footer": "parity",
+              "result": "PASS",
+              "evidence": "stardust/replica/gates/index-360/chrome-parity.txt"
+            },
+            "cropCompare": {
+              "header": { "region": "y0+50", "diffPct": 1.88, "result": "PASS" },
+              "footer": { "region": "footer band", "diffPct": 0.27, "result": "PASS" }
+            }
+          },
+          "hotBands": [
+            { "band": "0–500", "pct": 8.0, "cause": "server-rotated masthead slide — authored-volatile" },
+            { "band": "7000–7500", "pct": 5.1, "cause": "footer accordion label antialiasing (sub-pixel), separators verified at matching rows" },
+            { "band": "6000–6500", "pct": 4.3, "cause": "contact/interpreters body text antialiasing" },
+            { "band": "4000–4500", "pct": 4.1, "cause": "life-card copy antialiasing" }
+          ]
+        }
+      },
+      "motion": {
+        "evidence": "stardust/replica/motion/index.json",
+        "observedAt": "1440",
+        "observed": [
+          {
+            "behavior": "login selector toggles the class `show-main-login` on the page wrapper",
+            "trigger": "click button.login-select",
+            "evidence": "events.classMutations[0]"
+          }
+        ],
+        "implemented": [
+          "login selector class toggle + aria-expanded (inline script, index-proposed.html)"
+        ],
+        "dead": [
+          "footer accordion button[aria-expanded] — poked, no animation/transition/class mutation at 1440",
+          "hover on a — no computed-style change",
+          "hover on button — no computed-style change (transition declared, never fired)",
+          "masthead carousel — no CSS animations or transitions observed; rotation is server-side",
+          "sticky/scroll header morph — headerTimeline constant across 14 scroll positions (position relative, height 64px, transform none)"
+        ],
+        "pixelAfterMotion": { "1440": 0.99, "360": 2.24, "returnedToGatedValue": true }
+      },
+      "residuals": [
+        {
+          "id": "R1",
+          "where": "masthead band, both breakpoints",
+          "measured": "6.4% @1440 / 8.0% @360 in band 0–500",
+          "cause": "The masthead rotates server-side. The served slide (\"Looking for a Personal Loan?\") was authored verbatim; a later live capture serves a different slide.",
+          "policy": "authored-volatile — not a fidelity defect; no further iteration"
+        },
+        {
+          "id": "R2",
+          "where": "body copy across mid-page bands",
+          "measured": "2–5% per band",
+          "cause": "Sub-pixel text antialiasing. Both sides substitute the same face (Segoe UI → system) and content-diff pairs every string; geometry Δ ≤ 4px.",
+          "policy": "accepted residual"
+        },
+        {
+          "id": "R3",
+          "where": "NAB logo raster",
+          "measured": "header crop 1.88% @360 / 0.66% @1440",
+          "cause": "Live paints the byte-identical nab-logo.svg at ~78% scale centred inside its 88×50 box. Reproduced with box-sizing:border-box + padding 5.5px 9.5px; red-star bbox now 34×35@(60,8) vs live 33×34@(60,8) — 1px larger, antialiasing only.",
+          "policy": "accepted residual, under the 2% crop bar"
+        },
+        {
+          "id": "R4",
+          "where": "hero image asset variant",
+          "measured": "0 pixel impact",
+          "cause": "Live serves a 1440×480 srcset variant; the build carries the 1920×640 original. Rendered dimensions identical.",
+          "policy": "no change"
+        },
+        {
+          "id": "R5",
+          "where": "content-diff 🟠 EXTRA — hidden mega-menu promo CTAs",
+          "measured": "present in build, absent from live's source inventory",
+          "cause": "Live hydrates the mega-menu panel lazily, so its CTAs are not in the captured source inventory even though they exist on live.",
+          "policy": "intended — recreated from the captured hidden surface"
+        },
+        {
+          "id": "R6",
+          "where": "visual-diff — 4× STRETCHED IMAGE + 1× FLUSH-LEFT TEXT",
+          "measured": "5 advisory build flags, identical set at both breakpoints",
+          "cause": "Intentional object-fit:cover crops (masthead + 3 quicklink tiles) and live's own visually-hidden <h1> \"NAB Homepage\" at left -1px.",
+          "policy": "justified — the same flags fire on the source"
+        },
+        {
+          "id": "R7",
+          "where": "duplicate id=\"login\"",
+          "measured": "1 × 🟡 EXTRA \"Login\" at 360",
+          "cause": "The generated offscreen hidden-surface block and the real header both carry id=\"login\".",
+          "policy": "harmless for rendering; clean up when the archetype is lifted into EDS blocks"
+        }
+      ]
+    }
+  ],
+  "inconsistencyRegister": {
+    "path": "stardust/replica/inconsistency-register.md",
+    "entries": 0,
+    "note": "Empty register — pure replica. No design deltas were permitted or taken."
+  }
+}

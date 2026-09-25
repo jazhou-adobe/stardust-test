@@ -1,0 +1,89 @@
+/*
+ * Business panel.
+ * Desktop: index.css 144-176. The 32px the prototype carries as
+ *          .business-section's top margin is applied as the block root's
+ *          padding, so the white panel background does not bleed into the gap
+ *          and no margin collapses across EDS section wrappers.
+ * Mobile:  mobile.css 273-303.
+ */
+
+.business-panel {
+  padding-top: 32px;
+}
+
+.business-panel .business-section {
+  display: flex;
+  width: var(--container);
+  height: 439px;
+  margin: 0 auto;
+  padding: 0 40px;
+  background: var(--surface-white);
+}
+
+.business-panel .business-panel__col,
+.business-panel .business-panel__media {
+  display: flex;
+  width: 584px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.business-panel .business-panel__col h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.business-panel .business-panel__list {
+  margin-top: 32px;
+}
+
+.business-panel .business-panel__cta {
+  align-self: flex-start;
+  margin-top: 32px;
+}
+
+.business-panel .business-panel__media img {
+  width: 504px;
+  height: 359px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .business-panel {
+    padding-top: 15px;
+  }
+
+  .business-panel .business-section {
+    display: block;
+    width: 312px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .business-panel .business-panel__col {
+    display: block;
+    width: 264px;
+    margin: 0 auto;
+    padding: 24px;
+  }
+
+  .business-panel .business-panel__col h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .business-panel .business-panel__list {
+    margin-top: 16px;
+  }
+
+  .business-panel .business-panel__cta {
+    margin-top: 16px;
+  }
+
+  .business-panel .business-panel__media {
+    display: none;
+  }
+}

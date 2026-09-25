@@ -1,0 +1,104 @@
+/*
+ * Feature pair.
+ * Desktop: index.css 98-142. The block root carries the features band's 40px
+ *          top ground (index.css .band--features), since this boilerplate has
+ *          no section-metadata and the band is split across three blocks.
+ * Mobile:  mobile.css 227-271.
+ */
+
+.feature-pair {
+  padding-top: 40px;
+}
+
+.feature-pair .feature-pair__inner {
+  display: flex;
+  width: var(--container);
+  margin: 0 auto;
+}
+
+.feature-pair .feature-content {
+  width: 624px;
+  padding: 40px;
+}
+
+.feature-pair .feature-content--grey {
+  background: var(--panel-grey);
+}
+
+.feature-pair .feature-content--white {
+  background: var(--surface-white);
+}
+
+.feature-pair .feature-content h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.feature-pair .feature-content__media {
+  height: 246px;
+  margin-bottom: 32px;
+}
+
+.feature-pair .feature-content__media--inset img {
+  width: 264px;
+  height: 246px;
+  margin-left: 99px;
+}
+
+.feature-pair .feature-content__media--full img {
+  width: 544px;
+  height: 245px;
+}
+
+.feature-pair .feature-content__body {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.feature-pair .feature-content__cta {
+  margin-top: 16px;
+}
+
+@media (max-width: 767px) {
+  .feature-pair .feature-pair__inner {
+    display: block;
+    width: 312px;
+    margin: 0 auto;
+  }
+
+  .feature-pair .feature-content {
+    width: 312px;
+    min-height: 0;
+    padding: 24px;
+  }
+
+  .feature-pair .feature-content h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .feature-pair .feature-content__media {
+    height: auto;
+    margin: 0 0 16px;
+    text-align: center;
+  }
+
+  .feature-pair .feature-content__media img {
+    max-width: 264px;
+    height: auto;
+  }
+
+  .feature-pair .feature-content__media--full img {
+    width: 264px;
+    height: auto;
+  }
+
+  .feature-pair .feature-content__media--inset img {
+    width: 152px;
+    height: auto;
+    margin-left: 46px;
+  }
+}

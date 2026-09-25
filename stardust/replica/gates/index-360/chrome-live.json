@@ -1,0 +1,548 @@
+{
+  "key": {
+    "url": "https://www.nab.com.au/",
+    "width": 360,
+    "regions": [
+      "header=#header-container",
+      "footer=.nab-footer"
+    ]
+  },
+  "probedAt": "2026-09-23T01:55:50.383Z",
+  "data": {
+    "header": {
+      "found": true,
+      "sel": "#header-container",
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "w": 360,
+        "h": 50
+      },
+      "position": "static",
+      "backgroundColor": "rgb(0, 0, 0)",
+      "atoms": [
+        {
+          "key": "main menu",
+          "text": "Main menu",
+          "tag": "p",
+          "rect": {
+            "x": -1,
+            "y": 49,
+            "w": 1,
+            "h": 1
+          },
+          "box": {
+            "x": 0,
+            "y": 0,
+            "w": 50,
+            "h": 50
+          },
+          "boxTag": "a",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(0, 0, 0)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "paddingTop": "0px",
+            "paddingLeft": "0px"
+          }
+        },
+        {
+          "key": "login",
+          "text": "Login",
+          "tag": "span",
+          "rect": {
+            "x": 296,
+            "y": 15,
+            "w": 37,
+            "h": 19
+          },
+          "box": {
+            "x": 270,
+            "y": 0,
+            "w": 90,
+            "h": 50
+          },
+          "boxTag": "button",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "18.4px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "paddingTop": "0px",
+            "paddingLeft": "10px"
+          }
+        }
+      ],
+      "icons": [
+        {
+          "tag": "img",
+          "rect": {
+            "x": 50,
+            "y": 0,
+            "w": 88,
+            "h": 50
+          },
+          "sig": "nab-logo.svg",
+          "near": ""
+        },
+        {
+          "tag": "svg",
+          "rect": {
+            "x": 303,
+            "y": 63,
+            "w": 24,
+            "h": 24
+          },
+          "sig": "viewBox=- paths=0",
+          "near": "Login to a NAB service"
+        }
+      ]
+    },
+    "footer": {
+      "found": true,
+      "sel": ".nab-footer",
+      "rect": {
+        "x": 0,
+        "y": 7663,
+        "w": 360,
+        "h": 1005
+      },
+      "position": "relative",
+      "backgroundColor": "rgb(0, 0, 0)",
+      "atoms": [
+        {
+          "key": "top",
+          "text": "Top",
+          "tag": "a",
+          "rect": {
+            "x": 148,
+            "y": 7631,
+            "w": 64,
+            "h": 64
+          },
+          "box": {
+            "x": 148,
+            "y": 7631,
+            "w": 64,
+            "h": 64
+          },
+          "boxTag": "a",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "14px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgb(194, 0, 0)",
+            "paddingTop": "4px",
+            "paddingRight": "15px",
+            "paddingBottom": "6px",
+            "paddingLeft": "15px",
+            "borderRadius": "4px",
+            "textDecorationLine": "underline"
+          },
+          "boxStyle": null
+        },
+        {
+          "key": "quick links",
+          "text": "Quick links",
+          "tag": "span",
+          "rect": {
+            "x": 40,
+            "y": 7740,
+            "w": 79,
+            "h": 32
+          },
+          "box": {
+            "x": 24,
+            "y": 7728,
+            "w": 312,
+            "h": 56
+          },
+          "boxTag": "button",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "4px",
+            "paddingRight": "0px",
+            "paddingBottom": "4px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "paddingTop": "12px",
+            "paddingLeft": "16px"
+          }
+        },
+        {
+          "key": "about us",
+          "text": "About us",
+          "tag": "span",
+          "rect": {
+            "x": 40,
+            "y": 7797,
+            "w": 62,
+            "h": 32
+          },
+          "box": {
+            "x": 24,
+            "y": 7785,
+            "w": 312,
+            "h": 56
+          },
+          "boxTag": "button",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "4px",
+            "paddingRight": "0px",
+            "paddingBottom": "4px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "paddingTop": "12px",
+            "paddingLeft": "16px"
+          }
+        },
+        {
+          "key": "policies and terms",
+          "text": "Policies and terms",
+          "tag": "span",
+          "rect": {
+            "x": 40,
+            "y": 7854,
+            "w": 130,
+            "h": 32
+          },
+          "box": {
+            "x": 24,
+            "y": 7842,
+            "w": 312,
+            "h": 56
+          },
+          "boxTag": "button",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "4px",
+            "paddingRight": "0px",
+            "paddingBottom": "4px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "paddingTop": "12px",
+            "paddingLeft": "16px"
+          }
+        },
+        {
+          "key": "connect with us",
+          "text": "Connect with us",
+          "tag": "span",
+          "rect": {
+            "x": 40,
+            "y": 7911,
+            "w": 114,
+            "h": 32
+          },
+          "box": {
+            "x": 24,
+            "y": 7899,
+            "w": 312,
+            "h": 56
+          },
+          "boxTag": "button",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "700",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "4px",
+            "paddingRight": "0px",
+            "paddingBottom": "4px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": {
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "borderRadius": "0px",
+            "paddingTop": "12px",
+            "paddingLeft": "16px"
+          }
+        },
+        {
+          "key": "nab acknowledges the traditional owners of the land as australia’s first peoples and recognises their continuing connection to lands, water and country. we pay our respects to elders past and present.",
+          "text": "NAB acknowledges the Traditional Owners of the land as Australia’s First Peoples and recognises their continuing connection to lands, water and country. We pay our respects to Elders past and present.",
+          "tag": "p",
+          "rect": {
+            "x": 24,
+            "y": 7972,
+            "w": 312,
+            "h": 120
+          },
+          "box": {
+            "x": 24,
+            "y": 7972,
+            "w": 312,
+            "h": 120
+          },
+          "boxTag": "p",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": null
+        },
+        {
+          "key": "any advice on our website has been prepared without considering your objectives, financial situation or needs. before acting on any advice, consider whether it is appropriate for your circumstances and view the product disclosure statement or terms and conditions available online or by contacting us. credit applications are subject to credit assessment criteria. interest rates, fees and charges are subject to change. target market determinations for our products are available at . products issued by nab unless stated otherwise.",
+          "text": "Any advice on our website has been prepared without considering your objectives, financial situation or needs. Before acting on any advice, consider whether it is appropriate for your circumstances and view the Product Disclosure Statement or Terms and Conditions available online or by contacting us. Credit applications are subject to credit assessment criteria. Interest rates, fees and charges are subject to change. Target Market Determinations for our products are available at . Products issued by NAB unless stated otherwise.",
+          "tag": "p",
+          "rect": {
+            "x": 24,
+            "y": 8108,
+            "w": 312,
+            "h": 312
+          },
+          "box": {
+            "x": 24,
+            "y": 8108,
+            "w": 312,
+            "h": 312
+          },
+          "boxTag": "p",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": null
+        },
+        {
+          "key": "nab.com.au/tmd",
+          "text": "nab.com.au/TMD",
+          "tag": "a",
+          "rect": {
+            "x": 40,
+            "y": 8373,
+            "w": 115,
+            "h": 22
+          },
+          "box": {
+            "x": 40,
+            "y": 8373,
+            "w": 115,
+            "h": 22
+          },
+          "boxTag": "a",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "underline"
+          },
+          "boxStyle": null
+        },
+        {
+          "key": "© national australia bank limited abn 12 004 044 937 afsl and australian credit licence 230686",
+          "text": "© National Australia Bank Limited ABN 12 004 044 937 AFSL and Australian Credit Licence 230686",
+          "tag": "p",
+          "rect": {
+            "x": 24,
+            "y": 8436,
+            "w": 312,
+            "h": 72
+          },
+          "box": {
+            "x": 24,
+            "y": 8436,
+            "w": 312,
+            "h": 72
+          },
+          "boxTag": "p",
+          "style": {
+            "fontFamily": "source-sans-pro",
+            "fontSize": "16px",
+            "fontWeight": "400",
+            "fontStyle": "normal",
+            "lineHeight": "24px",
+            "letterSpacing": "normal",
+            "textTransform": "none",
+            "color": "rgb(255, 255, 255)",
+            "backgroundColor": "rgba(0, 0, 0, 0)",
+            "paddingTop": "0px",
+            "paddingRight": "0px",
+            "paddingBottom": "0px",
+            "paddingLeft": "0px",
+            "borderRadius": "0px",
+            "textDecorationLine": "none"
+          },
+          "boxStyle": null
+        }
+      ],
+      "icons": [
+        {
+          "tag": "svg",
+          "rect": {
+            "x": 164,
+            "y": 7636,
+            "w": 32,
+            "h": 32
+          },
+          "sig": "viewBox=- paths=0",
+          "near": "Back to top"
+        },
+        {
+          "tag": "svg",
+          "rect": {
+            "x": 296,
+            "y": 7743,
+            "w": 24,
+            "h": 24
+          },
+          "sig": "viewBox=- paths=0",
+          "near": "Quick links"
+        },
+        {
+          "tag": "svg",
+          "rect": {
+            "x": 296,
+            "y": 7800,
+            "w": 24,
+            "h": 24
+          },
+          "sig": "viewBox=- paths=0",
+          "near": "About us"
+        },
+        {
+          "tag": "svg",
+          "rect": {
+            "x": 296,
+            "y": 7857,
+            "w": 24,
+            "h": 24
+          },
+          "sig": "viewBox=- paths=0",
+          "near": "Policies and terms"
+        },
+        {
+          "tag": "svg",
+          "rect": {
+            "x": 296,
+            "y": 7914,
+            "w": 24,
+            "h": 24
+          },
+          "sig": "viewBox=- paths=0",
+          "near": "Connect with us"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,160 @@
+/*
+ * Quick-links band geometry.
+ * Desktop: index.css 46-96 (.band--quicklinks is the block root, .quicklinks
+ *          the white card it pulls up over the masthead).
+ * Mobile:  mobile.css 127-222.
+ * The accordion base is shared with the disclaimer and footer bands; each block
+ * carries its own copy so the names never leak between blocks.
+ */
+
+.quicklinks {
+  display: flow-root;
+  height: 308px;
+}
+
+.quicklinks .quicklinks__card {
+  width: var(--container);
+  height: 308px;
+  margin: -40px auto 0;
+  padding: 32px 40px 40px;
+  border-radius: 8px;
+  background: var(--surface-white);
+}
+
+.quicklinks .quicklinks__grid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(4, 280px);
+}
+
+.quicklinks .quicklinks__head {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 8px;
+}
+
+.quicklinks .quicklinks__icon {
+  width: 40px;
+  height: 40px;
+  flex: none;
+}
+
+.quicklinks .quicklinks__title {
+  margin: 0;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-decoration: underline;
+}
+
+.quicklinks .quicklinks__title .cmp-title__link {
+  color: inherit;
+  font: inherit;
+  text-decoration: inherit;
+}
+
+.quicklinks .quicklinks__list {
+  margin-top: 24px;
+}
+
+.quicklinks .quicklinks__accordion {
+  display: none;
+}
+
+/*
+ * index.css 375-380 styles .nab-accordion__item globally, so the quick-links
+ * accordion carries the same halo-grey rules the disclaimer does. Nothing in
+ * mobile.css removes them, which is why each mobile row shows a 2px seam.
+ */
+.quicklinks .nab-accordion__item {
+  width: var(--container);
+  margin: 0 auto;
+  border-top: 1px solid var(--halo-grey);
+  border-bottom: 1px solid var(--halo-grey);
+}
+
+@media (max-width: 767px) {
+  .quicklinks {
+    height: 333px;
+    padding: 40px 0 0;
+  }
+
+  .quicklinks .quicklinks__card {
+    width: 312px;
+    height: auto;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+  }
+
+  .quicklinks .quicklinks__grid {
+    display: none;
+  }
+
+  .quicklinks .quicklinks__accordion {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .quicklinks .nab-accordion__item {
+    width: 312px;
+    margin: 0;
+    list-style: none;
+  }
+
+  .quicklinks .nab-accordion__header {
+    margin: 0;
+    font: inherit;
+  }
+
+  .quicklinks .nab-accordion__button {
+    display: flex;
+    width: 312px;
+    height: 56px;
+    align-items: center;
+    padding: 0;
+    border: 0;
+    border-bottom: 1px solid var(--rule-grey);
+    background: none;
+    color: inherit;
+    font-family: inherit;
+    text-align: left;
+  }
+
+  .quicklinks .nab-accordion__icon {
+    width: 32px;
+    height: 32px;
+    flex: none;
+    margin-right: 12px;
+  }
+
+  .quicklinks .nab-accordion__title__header {
+    display: block;
+    height: 32px;
+    flex: none;
+    margin-right: auto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .quicklinks .nab-accordion__title__description {
+    display: block;
+    width: auto;
+    height: 32px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 32px;
+  }
+
+  .quicklinks .nab-accordion__chevron {
+    width: 24px;
+    height: 24px;
+    flex: none;
+  }
+}

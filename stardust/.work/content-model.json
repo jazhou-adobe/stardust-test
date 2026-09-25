@@ -1,0 +1,622 @@
+{
+  "meta": {
+    "title": "Bank with NAB | Bank accounts, home loans and credit cards - NAB",
+    "description": "NAB offer personal and business banking solutions, from bank accounts and credit cards to home loans and personal loans. Find out how we can help."
+  },
+  "masthead": {
+    "h1": "NAB Homepage",
+    "image": "/img/025-banner-relaxing-with-tea-with-star.jpeg",
+    "heading": "Looking for a Personal Loan?",
+    "body": "We offer competitive interest rates, no exit fees and funds become available in one business day.",
+    "cta": {
+      "href": "https://www.nab.com.au/content/nabrwd/en/personal/personal-loans.html?own_cid=25207-7",
+      "text": "Get started"
+    }
+  },
+  "quicklinks": [
+    {
+      "icon": "icon-savings",
+      "href": "/personal/bank-accounts",
+      "title": "Everyday banking",
+      "items": [
+        {
+          "href": "/personal/bank-accounts/transaction-accounts",
+          "text": "Transaction accounts",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/personal/bank-accounts/savings-accounts",
+          "text": "Savings accounts",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/personal/personal-loans",
+          "text": "Personal loans",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        }
+      ]
+    },
+    {
+      "icon": "icon-card",
+      "href": "/personal/credit-cards",
+      "title": "Credit cards",
+      "items": [
+        {
+          "href": "/personal/credit-cards/offers",
+          "text": "Latest card offers",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/personal/credit-cards/calculators-and-tools/product-selector",
+          "text": "Help me choose a card",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/personal/credit-cards/qantas-rewards",
+          "text": "Qantas rewards",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        }
+      ]
+    },
+    {
+      "icon": "icon-home",
+      "href": "/personal/home-loans",
+      "title": "Home loans",
+      "items": [
+        {
+          "href": "/personal/home-loans/calculators/loan-repayments-calculator",
+          "text": "Repayments calculator",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/personal/home-loans/calculators/borrowing-calculator",
+          "text": "Borrowing calculator",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/common/forms/home-loan-appointment",
+          "text": "Talk to an expert",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        }
+      ]
+    },
+    {
+      "icon": "icon-business",
+      "href": "/business",
+      "title": "Business banking",
+      "items": [
+        {
+          "href": "/business/business-bank-accounts",
+          "text": "Business bank accounts",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/business/business-credit-cards",
+          "text": "Business credit cards",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/business/payments-and-merchants",
+          "text": "EFTPOS & eCommerce",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        }
+      ]
+    }
+  ],
+  "featurePair": [
+    {
+      "image": "/img/woman-on-couch-with-laptop-500x466.png",
+      "heading": "Thinking about refinancing?",
+      "body": "Use our calculator to understand how much you may save on your home loan repayments by refinancing your home loan with us.",
+      "cta": {
+        "href": "/personal/home-loans/calculators/refinance-calculator?own_cid=26101",
+        "text": "See estimate"
+      }
+    },
+    {
+      "image": "/img/woman-comparing-accounts-546x246.jpeg",
+      "heading": "Need help choosing an account?",
+      "body": "Whether you're looking to save, spend or have the flexibility to do both, our bank account comparison tool can help you find the right one.",
+      "cta": {
+        "href": "/personal/bank-accounts/product-selector?own_cid=26053",
+        "text": "Help me choose"
+      }
+    }
+  ],
+  "businessPanel": {
+    "heading": "Get the most out of business banking",
+    "items": [
+      {
+        "href": "/business/business-benefits",
+        "text": "NAB Business benefits and offers",
+        "newWindow": false,
+        "icon": "icon-chevron-right"
+      },
+      {
+        "href": "/business/loans-and-finance",
+        "text": "Loans and finance",
+        "newWindow": false,
+        "icon": "icon-chevron-right"
+      },
+      {
+        "href": "/business/business-bank-accounts/savings-and-deposit-accounts",
+        "text": "Business savings accounts",
+        "newWindow": false,
+        "icon": "icon-chevron-right"
+      }
+    ],
+    "cta": {
+      "href": "/business",
+      "text": "Explore all business banking"
+    },
+    "image": "/img/shine-business-panel-1430x1020.jpeg"
+  },
+  "award": {
+    "badge": "/img/bank-of-the-year-1600x1600.png",
+    "heading": "Award-winning banking",
+    "bodyText": "We’re proud to be recognised for our banking services, products and digital innovations including WeMoney Bank of the Year 2025.",
+    "link": {
+      "href": "https://www.wemoney.com.au/wemoney-banking-awards-overall-2025-winners",
+      "text": "WeMoney Bank of the Year 2025",
+      "icon": "icon-link"
+    }
+  },
+  "life": {
+    "heading": "We’re here to help with whatever life looks like",
+    "lede": "No two journeys are the same, so we’ll provide support that fits your life, right when you need it.",
+    "cards": [
+      {
+        "image": null,
+        "href": "/personal/home-loans/first-home-buyers",
+        "title": "Buying your first home",
+        "description": "There's a lot to consider, so here are some tips and tools to get you sorted."
+      },
+      {
+        "image": null,
+        "href": "/business/small-business/hub",
+        "title": "Small Business Hub",
+        "description": "We’re helping you build your small business."
+      },
+      {
+        "image": null,
+        "href": "/personal/banking-in-australia",
+        "title": "Moving to Australia",
+        "description": "Start your application online before you arrive, then visit a NAB branch in Australia to verify your identity and activate your account."
+      },
+      {
+        "image": null,
+        "href": "/personal/life-moments/manage-money",
+        "title": "Managing your money",
+        "description": "Need help budgeting, managing your debts or paying off your home loan sooner? We’ve got some tips and guides to help."
+      }
+    ],
+    "reasonsHeading": "More reasons to choose NAB",
+    "reasonsCards": [
+      {
+        "image": "/img/nab-goodies-refresh-rollout-masthead-3000x1000.jpg",
+        "href": "/personal/goodies",
+        "title": "NAB Goodies",
+        "description": "NAB Goodies is our customer recognition offering, delighting customers with savings and rewards for banking with us."
+      },
+      {
+        "image": "/img/footy-perks-masthead-3000x1000.jpg",
+        "href": "/about-us/more-than-money/sponsorships/footy-perks",
+        "title": "Footy Perks",
+        "description": "Enjoy exclusive footy offers, competitions and experiences with NAB Goodies."
+      },
+      {
+        "image": "/img/woman-shining-spotlight-on-scammer-3000x1000.jpg",
+        "href": "/about-us/security",
+        "title": "NAB’s online security, fraud and scams support hub",
+        "description": "Explore online security tips, check scam alerts and get fraud support in one convenient location."
+      }
+    ]
+  },
+  "helpGrid": {
+    "heading": "We’re here to help",
+    "body": "Not sure where to start? Explore our expert knowledge and services to find out what you need to know.",
+    "items": [
+      {
+        "href": "/help-support/financial-hardship",
+        "text": "Financial hardship advice",
+        "newWindow": false,
+        "icon": "icon-chevron-right"
+      },
+      {
+        "href": "/about-us/security/report-fraud-scams",
+        "text": "Scams and fraud",
+        "newWindow": false,
+        "icon": "icon-chevron-right"
+      },
+      {
+        "href": "/customer-notices",
+        "text": "Customer notices",
+        "newWindow": false,
+        "icon": "icon-chevron-right"
+      }
+    ]
+  },
+  "contact": {
+    "heading": "How to contact us",
+    "tiles": [
+      {
+        "icon": "icon-contacts",
+        "heading": "NAB banking contacts",
+        "body": "Explore our contact information and get support with a wide range of products, services and topics.",
+        "cta": {
+          "href": "/contact-us",
+          "text": "View NAB banking contacts",
+          "icon": "icon-chevron-right"
+        }
+      },
+      {
+        "icon": "icon-location",
+        "heading": "Visit a NAB branch",
+        "body": "Visit us in person at your nearest NAB branch or business banking centre.",
+        "cta": {
+          "href": "/locations",
+          "text": "Find a NAB branch",
+          "icon": "icon-chevron-right"
+        }
+      },
+      {
+        "icon": "icon-authorise",
+        "heading": "Feedback",
+        "body": "Suggestions, compliments and complaints.",
+        "cta": {
+          "href": "/contact-us/feedback",
+          "text": "Provide feedback",
+          "icon": "icon-chevron-right"
+        }
+      }
+    ]
+  },
+  "interpreters": {
+    "icon": "/img/national-interpreter-icon.png",
+    "heading": "Interpreters available",
+    "paragraphs": [
+      "Do you have limited English or prefer to speak in a language other than English? When you call us, just say “I need an interpreter” and we’ll arrange for someone to help with your enquiry.",
+      "If you don’t see your language listed, please ask us for help to find someone who speaks your language to help with your banking."
+    ],
+    "lists": [
+      [
+        {
+          "href": "/about-us/accessibility-inclusion/interpreter-services/cmn",
+          "text": "普通话",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/about-us/accessibility-inclusion/interpreter-services/kor",
+          "text": "한국어",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        }
+      ],
+      [
+        {
+          "href": "/about-us/accessibility-inclusion/interpreter-services/ita",
+          "text": "Italiano",
+          "newWindow": true,
+          "icon": "icon-chevron-right"
+        },
+        {
+          "href": "/about-us/accessibility-inclusion/interpreter-services/jp",
+          "text": "日本語",
+          "newWindow": false,
+          "icon": "icon-chevron-right"
+        }
+      ]
+    ],
+    "cta": {
+      "href": "/about-us/accessibility-inclusion/interpreter-services",
+      "text": "View more languages",
+      "icon": "icon-chevron-right"
+    }
+  },
+  "nrs": {
+    "heading": "National Relay Service",
+    "bodyParts": [
+      {
+        "type": "text",
+        "text": "If you’re d/Deaf or find it hard to hear or speak to hearing people on the phone, the "
+      },
+      {
+        "type": "link",
+        "href": "https://www.accesshub.gov.au/about-the-nrs",
+        "text": "National Relay Service",
+        "icon": "icon-link"
+      },
+      {
+        "type": "text",
+        "text": " can help. To contact NAB give our phone number "
+      },
+      {
+        "type": "link",
+        "href": "tel:132265",
+        "text": "13 22 65",
+        "icon": null
+      },
+      {
+        "type": "text",
+        "text": " to the National Relay Service operator when asked."
+      }
+    ],
+    "items": [
+      {
+        "href": "https://www.accesshub.gov.au/about-the-nrs/nrs-call-numbers-and-links",
+        "text": "National Relay Service phone numbers and links",
+        "newWindow": true,
+        "icon": "icon-link"
+      },
+      {
+        "href": "https://www.accesshub.gov.au/services",
+        "text": "National Relay Service options",
+        "newWindow": true,
+        "icon": "icon-link"
+      },
+      {
+        "href": "/about-us/accessibility-inclusion",
+        "text": "Learn more about accessibility at NAB",
+        "newWindow": false,
+        "icon": "icon-chevron-right"
+      }
+    ]
+  },
+  "disclaimer": "Important Information",
+  "chrome": {
+    "logo": "/img/nab-logo.svg",
+    "logoHref": "/content/nabrwd/en",
+    "navAnchors": [
+      "Personal",
+      "Business",
+      "Corporate",
+      "About us",
+      "Help and support"
+    ],
+    "loginService": "Internet Banking",
+    "loginHref": "https://ib.nab.com.au/login",
+    "loginText": "Login",
+    "mobileLoginText": "Login",
+    "searchLabel": "Search",
+    "menuLabel": "Main menu",
+    "skipLinks": [
+      {
+        "href": "#login",
+        "text": "Skip to login"
+      },
+      {
+        "href": "#main-content",
+        "text": "Skip to main content"
+      }
+    ],
+    "footerAccordion": [
+      "Quick links",
+      "About us",
+      "Policies and terms",
+      "Connect with us"
+    ],
+    "footerBackToTop": "Top",
+    "footerColumns": [
+      {
+        "heading": "Quick links",
+        "links": [
+          {
+            "href": "/about-us/security",
+            "text": "Security and fraud",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/contact-us",
+            "text": "Contact us",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/help-support/financial-hardship",
+            "text": "Financial assistance",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/contact-us/feedback",
+            "text": "Feedback and complaints",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/locations",
+            "text": "Find a branch",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/about-us/accessibility-inclusion/interpreter-services",
+            "text": "Interpreter services",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          }
+        ]
+      },
+      {
+        "heading": "About us",
+        "links": [
+          {
+            "href": "/about-us",
+            "text": "About NAB",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/about-us/shareholder-centre",
+            "text": "Shareholder Centre",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "https://careers.nab.com.au/",
+            "text": "Careers at NAB",
+            "newWindow": true,
+            "leadingIcon": null,
+            "trailingIcon": "icon-link"
+          },
+          {
+            "href": "/about-us/accessibility-inclusion",
+            "text": "Accessibility",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/about-us/sustainability",
+            "text": "Sustainability",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/news",
+            "text": "News",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/about-us/corporate-governance",
+            "text": "Corporate governance",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          }
+        ]
+      },
+      {
+        "heading": "Policies and terms",
+        "links": [
+          {
+            "href": "/common/privacy-policy",
+            "text": "Privacy policy",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/common/website-disclaimer",
+            "text": "Website disclaimer",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/important-information",
+            "text": "Important information",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/about-us/sustainability/reporting-policies-approach/performance-reporting#modern-slavery-statement",
+            "text": "Modern slavery statement",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/financial-services-guide",
+            "text": "Financial Services Guide",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/about-us/corporate-governance/banking-code-of-practice",
+            "text": "Banking Code of Practice",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          },
+          {
+            "href": "/sitemap",
+            "text": "Sitemap",
+            "newWindow": false,
+            "leadingIcon": null,
+            "trailingIcon": null
+          }
+        ]
+      },
+      {
+        "heading": "Connect with us",
+        "links": [
+          {
+            "href": "https://www.linkedin.com/company/national-australia-bank",
+            "text": "LinkedIn",
+            "newWindow": true,
+            "leadingIcon": "icon-linkedin",
+            "trailingIcon": null
+          },
+          {
+            "href": "https://www.facebook.com/NAB",
+            "text": "Facebook",
+            "newWindow": true,
+            "leadingIcon": "icon-facebook",
+            "trailingIcon": null
+          },
+          {
+            "href": "https://www.instagram.com/nab/",
+            "text": "Instagram",
+            "newWindow": true,
+            "leadingIcon": "icon-instagram",
+            "trailingIcon": null
+          },
+          {
+            "href": "https://www.youtube.com/user/nab",
+            "text": "YouTube",
+            "newWindow": true,
+            "leadingIcon": "icon-you-tube",
+            "trailingIcon": null
+          },
+          {
+            "href": "https://x.com/NAB",
+            "text": "X",
+            "newWindow": true,
+            "leadingIcon": "icon-twitter",
+            "trailingIcon": null
+          },
+          {
+            "href": "https://www.tiktok.com/@nab",
+            "text": "TikTok",
+            "newWindow": true,
+            "leadingIcon": "icon-tiktok",
+            "trailingIcon": null
+          }
+        ]
+      }
+    ],
+    "footerLegal": [
+      "NAB acknowledges the Traditional Owners of the land as Australia’s First Peoples and recognises their continuing connection to lands, water and country. We pay our respects to Elders past and present.",
+      "Any advice on our website has been prepared without considering your objectives, financial situation or needs. Before acting on any advice, consider whether it is appropriate for your circumstances and view the Product Disclosure Statement or Terms and Conditions available online or by contacting us. Credit applications are subject to credit assessment criteria. Interest rates, fees and charges are subject to change. Target Market Determinations for our products are available at <a href=\"/important-information/target-market-determinations\">nab.com.au/TMD</a>. Products issued by NAB unless stated otherwise.",
+      "© National Australia Bank Limited ABN 12 004 044 937 AFSL and Australian Credit Licence 230686"
+    ]
+  }
+}

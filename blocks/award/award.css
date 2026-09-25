@@ -1,0 +1,83 @@
+/*
+ * Award.
+ * Desktop: index.css 178-208. The block root also closes the features band,
+ *          carrying its 73px top gap and 40px bottom ground.
+ * Mobile:  mobile.css 305-327 (the band's mobile ground is 0, and the award's
+ *          own 40px bottom padding closes it instead).
+ */
+
+.award {
+  padding: 73px 0 40px;
+}
+
+.award .award__inner {
+  display: flex;
+  width: var(--container);
+  margin: 0 auto;
+  padding: 0 40px;
+  gap: 80px;
+}
+
+.award .award__badge {
+  width: 336px;
+  height: 336px;
+  flex: none;
+}
+
+.award .award__body {
+  margin-top: 104px;
+}
+
+.award .award__body h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.award .award__body p {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.award .award__link {
+  color: var(--nab-red);
+  text-decoration: underline;
+}
+
+.award .award__link .nab-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--nab-red);
+  vertical-align: -6px;
+}
+
+@media (max-width: 767px) {
+  .award {
+    padding: 40px 0;
+  }
+
+  .award .award__inner {
+    display: block;
+    width: 264px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .award .award__badge {
+    display: block;
+    width: 264px;
+    height: 264px;
+  }
+
+  .award .award__body {
+    width: 264px;
+    margin-top: 48px;
+  }
+
+  .award .award__body h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+}

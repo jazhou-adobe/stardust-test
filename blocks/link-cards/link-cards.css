@@ -1,0 +1,148 @@
+/*
+ * Link cards + the life band head.
+ * Desktop: canon.css 221-271 (the card module), index.css 210-236 (the grids
+ *          and the band's own width/ground, which is split across the five
+ *          life-band blocks because this boilerplate has no section metadata).
+ * Mobile:  mobile.css 329-392.
+ *
+ * .life-intro is the section that opens the band (heading, lede, two-up cards);
+ * .life-reasons is the media grid further down. Both classes are set by the
+ * block, so the head above each grid can be styled where it is authored.
+ */
+
+main > .section.life-intro,
+main > .section.life-reasons {
+  width: var(--container);
+  margin: 0 auto;
+}
+
+main > .section.life-intro {
+  padding-top: 40px;
+}
+
+.life-intro .default-content-wrapper h2,
+.life-reasons .default-content-wrapper h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.life-intro .default-content-wrapper p {
+  margin-top: 32px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.life-reasons .default-content-wrapper h2 {
+  margin-top: 32px;
+}
+
+.link-cards {
+  display: grid;
+  margin-top: 32px;
+  gap: 32px;
+}
+
+.link-cards.link-cards--text {
+  grid-template-columns: repeat(2, 608px);
+}
+
+.link-cards.link-cards--media {
+  grid-template-columns: repeat(3, 395px);
+}
+
+.link-cards .nab-link-card {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 4px rgb(128 128 128);
+}
+
+.link-cards .nab-link-card__media {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.link-cards .nab-link-card__inner-container {
+  display: flex;
+  align-items: flex-start;
+  padding: 24px 16px 24px 24px;
+  background: var(--surface-white);
+  gap: 16px;
+}
+
+.link-cards .nab-link-card__body {
+  flex: 1;
+}
+
+.link-cards .nab-link-card__title {
+  margin: 0;
+  font: inherit;
+}
+
+.link-cards .nab-link-card__link {
+  display: block;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-decoration: none;
+}
+
+.link-cards .nab-link-card__description {
+  margin-top: 8px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.link-cards .nab-link-card__chevron {
+  width: 24px;
+  height: 24px;
+  flex: none;
+  margin-top: 4px;
+  fill: var(--nab-red);
+}
+
+@media (max-width: 767px) {
+  main > .section.life-intro,
+  main > .section.life-reasons {
+    width: 360px;
+  }
+
+  .life-intro .default-content-wrapper,
+  .life-reasons .default-content-wrapper {
+    width: 312px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .life-intro .default-content-wrapper p {
+    margin-top: 16px;
+  }
+
+  .life-reasons .default-content-wrapper h2 {
+    margin-top: 16px;
+  }
+
+  .link-cards {
+    display: block;
+    width: 312px;
+    margin: 16px auto 0;
+  }
+
+  .link-cards .nab-link-card {
+    width: 312px;
+    margin-bottom: 16px;
+  }
+
+  .link-cards .nab-link-card__body {
+    width: 232px;
+  }
+
+  .link-cards .nab-link-card img {
+    width: 312px;
+    height: 200px;
+    object-fit: cover;
+  }
+}

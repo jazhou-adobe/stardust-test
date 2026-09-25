@@ -1,0 +1,404 @@
+/*
+ * NAB replica — home archetype (index).
+ * Band geometry lifted from the live page at 1440
+ * (stardust/replica/capture/lift-1440.json § sections + elements-1440.json).
+ */
+
+/* ---------- masthead band (64 → 502) ---------- */
+
+.band--masthead {
+  position: relative;
+  height: 438px;
+}
+
+.masthead__image {
+  width: 100%;
+  height: 438px;
+  object-fit: cover;
+}
+
+.masthead__inner {
+  position: absolute;
+  inset: 0;
+  width: var(--container);
+  margin: 0 auto;
+}
+
+.nab-tile--banner {
+  position: absolute;
+  top: 72px;
+  left: 0;
+  width: 520px;
+  padding: 24px 32px;
+  border: 1px solid rgb(0 0 0 / 0%);
+  border-radius: 8px;
+  background: var(--surface-white);
+  box-shadow: 0 0 4px rgb(0 0 0 / 32%);
+}
+
+.nab-tile--banner .nab-tile__body {
+  margin-top: 24px;
+}
+
+.nab-tile--banner .nab-tile__cta {
+  margin-top: 16px;
+}
+
+/* ---------- quick-links band (502 → 810) ---------- */
+
+.band--quicklinks {
+  display: flow-root;
+  height: 308px;
+}
+
+.quicklinks {
+  width: var(--container);
+  height: 308px;
+  margin: -40px auto 0;
+  padding: 32px 40px 40px;
+  border-radius: 8px;
+  background: var(--surface-white);
+}
+
+.quicklinks__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 280px);
+  gap: 16px;
+}
+
+.quicklinks__head {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  height: 40px;
+}
+
+.quicklinks__icon {
+  width: 40px;
+  height: 40px;
+  flex: none;
+}
+
+.quicklinks__title {
+  margin: 0;
+  color: var(--ink);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-decoration: underline;
+}
+
+.quicklinks__title .cmp-title__link {
+  color: inherit;
+  font: inherit;
+  text-decoration: inherit;
+}
+
+.quicklinks__list {
+  margin-top: 24px;
+}
+
+/* ---------- feature band (810 → 2304) ---------- */
+
+.band--features {
+  padding: 40px 0;
+}
+
+.feature-pair {
+  display: flex;
+  width: var(--container);
+  margin: 0 auto;
+}
+
+.feature-content {
+  width: 624px;
+  padding: 40px;
+}
+
+.feature-content--grey {
+  background: var(--panel-grey);
+}
+
+.feature-content--white {
+  background: var(--surface-white);
+}
+
+.feature-content__media {
+  height: 246px;
+  margin-bottom: 32px;
+}
+
+.feature-content__media--inset img {
+  width: 264px;
+  height: 246px;
+  margin-left: 99px;
+}
+
+.feature-content__media--full img {
+  width: 544px;
+  height: 245px;
+}
+
+.feature-content__body {
+  margin-top: 24px;
+}
+
+.feature-content__cta {
+  margin-top: 16px;
+}
+
+.business-section {
+  display: flex;
+  width: var(--container);
+  height: 439px;
+  margin: 32px auto 0;
+  padding: 0 40px;
+  background: var(--surface-white);
+}
+
+.business-panel {
+  display: flex;
+  width: 584px;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+}
+
+.business-panel__list {
+  margin-top: 32px;
+}
+
+.business-panel__cta {
+  align-self: flex-start;
+  margin-top: 32px;
+}
+
+.business-panel__media img {
+  width: 504px;
+  height: 359px;
+  object-fit: cover;
+}
+
+.award {
+  display: flex;
+  width: var(--container);
+  margin: 73px auto 0;
+  padding: 0 40px;
+  gap: 80px;
+}
+
+.award__badge {
+  width: 336px;
+  height: 336px;
+  flex: none;
+}
+
+.award__body {
+  margin-top: 104px;
+}
+
+.award__body p {
+  margin-top: 24px;
+}
+
+.award__link {
+  color: var(--nab-red);
+  text-decoration: underline;
+}
+
+.award__link .nab-icon {
+  width: 24px;
+  height: 24px;
+  fill: var(--nab-red);
+  vertical-align: -6px;
+}
+
+/* ---------- life band (2304 → 4588) ---------- */
+
+.band--life {
+  width: var(--container);
+  margin: 0 auto;
+  padding: 40px 0 80px;
+}
+
+.band--life > p.lede {
+  margin-top: 32px;
+}
+
+.life-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 608px);
+  margin-top: 32px;
+  gap: 32px;
+}
+
+.reasons-title {
+  margin-top: 32px;
+}
+
+.reasons-cards {
+  display: grid;
+  grid-template-columns: repeat(3, 395px);
+  margin-top: 32px;
+  gap: 32px;
+}
+
+.life-separator {
+  height: 0;
+  margin-top: 72px;
+  border: 0;
+  border-top: 1px solid var(--halo-grey);
+}
+
+.help-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 608px);
+  margin-top: 72px;
+  gap: 32px;
+}
+
+.help-grid p {
+  margin-top: 24px;
+}
+
+.contact-title {
+  margin-top: 72px;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 416px);
+  margin-top: 32px;
+}
+
+.contact-tile {
+  display: flex;
+  gap: 24px;
+}
+
+.nab-tile__icon {
+  display: flex;
+  width: 56px;
+  height: 56px;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: var(--nab-red);
+}
+
+.nab-tile__icon .nab-icon {
+  width: 40px;
+  height: 40px;
+  fill: #fff;
+}
+
+.contact-tile__body {
+  width: 336px;
+}
+
+.contact-tile__body p {
+  min-height: 48px;
+  margin-top: 16px;
+}
+
+.contact-tile__body .nab-button {
+  margin-top: 16px;
+}
+
+.interpreters {
+  display: flex;
+  margin-top: 72px;
+  gap: 32px;
+}
+
+.interpreters__icon {
+  width: 75px;
+  height: 76px;
+  flex: none;
+}
+
+.interpreters__body {
+  width: 1141px;
+}
+
+.interpreters__body p {
+  margin-top: 32px;
+}
+
+.interpreters__body p + p {
+  margin-top: 16px;
+}
+
+.interpreters__lists {
+  display: grid;
+  grid-template-columns: 501px 608px;
+  margin-top: 32px;
+  gap: 32px;
+}
+
+.interpreters__cta {
+  margin-top: 32px;
+}
+
+.nrs {
+  display: grid;
+  grid-template-columns: repeat(2, 608px);
+  margin-top: 72px;
+  gap: 32px;
+}
+
+.nrs p {
+  margin-top: 32px;
+}
+
+.nrs a {
+  color: var(--nab-red);
+  text-decoration: underline;
+}
+
+.nrs a .nab-icon {
+  width: 24px;
+  height: 24px;
+  margin: 0 4px;
+  fill: var(--nab-red);
+  vertical-align: -6px;
+}
+
+/* ---------- disclaimer band (4588 → 4838) ---------- */
+
+.band--disclaimer {
+  padding: 80px 0 112px;
+  background: var(--surface-white);
+}
+
+.nab-accordion__item {
+  width: var(--container);
+  margin: 0 auto;
+  border-top: 1px solid var(--halo-grey);
+  border-bottom: 1px solid var(--halo-grey);
+}
+
+.nab-accordion__button {
+  display: flex;
+  width: 100%;
+  height: 56px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  border: 0;
+  background: transparent;
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.nab-accordion__title {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.nab-accordion__button .nab-icon {
+  fill: var(--nab-red);
+}
