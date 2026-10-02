@@ -1,0 +1,9 @@
+chrome-parity @ 360px, tolerance 1px
+  live:  https://www.nab.com.au/ (live side from cache stardust/replica/gates/index-360/chrome-live.json, probed 2026-09-23T01:55:50.383Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: ✓ parity — 2 paired of 2/2 texts, 2/2 icons
+
+■ footer: ✓ parity — 9 paired of 9/9 texts, 5/5 icons
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

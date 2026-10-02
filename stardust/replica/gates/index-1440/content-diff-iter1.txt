@@ -1,0 +1,461 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 537 text nodes — 6 headings, 3 eyebrows, 415 CTAs, 113 body; 26 img
+  build: 126 text nodes — 19 headings, 0 eyebrows, 83 CTAs, 24 body; 11 img
+  editable texts (outermost h*/p/ul/ol): source 67 / build 50
+
+Findings: 454 (368 structural 🔴)
+  🔴 MISSING CTA: source cta "Personal home" → /personal has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Bank accounts" → /personal/bank-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Premier Banking" → /personal/premier has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online banking" → /personal/online-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Trading and investments" → /personal/trading-investments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Private Wealth" → /personal/private-wealth has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Insurance" → /personal/insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International" → /personal/international-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business home" → /business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "EFTPOS, payments and merchants" → /business/payments-and-merchants has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online banking" → /business/online-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International and foreign exchange" → /business/international-and-foreign-exchange has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Industry specific banking" → /business/industry has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Small business" → /business/small-business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Business Benefits" → /business/business-benefits has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Corporate home" → /corporate has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Global relationships" → /corporate/global-relationships has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Industry expertise" → /corporate/industry-expertise has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Specialist solutions" → /corporate/specialist-solutions has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Climate and environment" → /corporate/climate-environment has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Research and insights" → /corporate/research-insights has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "About us home" → /about-us has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Security" → /about-us/security has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Careers" → /about-us/careers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Capital and funding" → /about-us/capital-and-funding has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "News and Media" → /about-us/news-and-media has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Life's about more than money" → /about-us/more-than-money has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help and support home" → /help-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help with personal banking" → /help-support/personal-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help with business banking" → /help-support/business-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Extra Care support" → /help-support/extra-care-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "First Nations support" → /help-support/first-nations-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial wellbeing" → /help-support/financial-wellbeing has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Losing a loved one" → /help-support/losing-loved-ones has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Ways to bank with us" → /help-support/better-ways-to-bank has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Service Status" → /help-support/service-disruption has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING: source heading "Latest offers" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA: source cta "Personal" → /personal/credit-cards/offers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business" → /business/offers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING: source heading "NAB Mobile Banking app" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA: source cta "Get it from the app store" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING: source heading "Update your browser." has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA: source cta "Get a supported browser" → /about-us/using-this-site/technical-requirements has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Main menu" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Personal" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Personal home" → /personal has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Bank accounts" → /personal/bank-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Bank accounts" → /personal/bank-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Visa Debit cards" → /personal/bank-accounts/debit-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Term Deposit" → /personal/bank-accounts/nab-term-deposit has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Joint bank accounts" → /personal/bank-accounts/joint-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Classic Banking account" → /personal/bank-accounts/transaction-accounts/nab-classic-banking?own_cid=25247-2 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Open an account online" → /personal/bank-accounts/opening-a-new-personal-account has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Open a bank account for a child" → /personal/youth-banking/kids/bank-accounts-children has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help me choose a bank account" → /personal/bank-accounts/product-selector has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Home loans" → /personal/home-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Home loans" → /personal/home-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Basic variable rate" → /personal/home-loans/nab-base-variable-rate-home-loan has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Tailored variable rate with offset" → /personal/home-loans/nab-variable-rate-offset-home-loan has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Tailored fixed rate" → /personal/home-loans/nab-fixed-rate-home-loan has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "What will my repayments be?" → /personal/home-loans/calculators/loan-repayments-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "How much can I borrow?" → /personal/home-loans/calculators/borrowing-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "How to calculate stamp duty" → /personal/home-loans/calculators/stamp-duty-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "How much equity do I have?" → /personal/home-loans/calculators/equity-loan-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Investing in property" → /personal/home-loans/property-investors has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Home and property guides" → /personal/life-moments/home-property has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Talking to a home loan expert" → /common/forms/home-loan-appointment has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Credit cards" → /personal/credit-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Credit cards" → /personal/credit-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Qantas Rewards credit cards" → /personal/credit-cards/qantas-rewards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Low Rate Credit Card" → /personal/credit-cards/nab-low-rate-card has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Rewards credit cards" → /personal/credit-cards/nab-rewards-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Low Fee Card" → /personal/credit-cards/low-fee-card has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB credit card features and benefits" → /personal/credit-cards/credit-card-benefits has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Discover current offers" → /personal/credit-cards/partner-offers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Personal loans" → /personal/personal-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Personal loans" → /personal/personal-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Buying a car" → /personal/personal-loans/car-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Consolidating debts" → /personal/personal-loans/debt-consolidation-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Renovating your home" → /personal/personal-loans/home-renovation-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Weddings" → /personal/personal-loans/wedding-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Holidays and travel" → /personal/personal-loans/travel-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Making a major purchase" → /personal/personal-loans/major-purchases has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Borrowing power calculator" → /personal/personal-loans/personal-loan-calculators/personal-loan-borrowing-power-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Personal loan repayment calculator" → /personal/personal-loans/personal-loan-calculators/personal-loan-repayment-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Debt consolidation calculator" → /personal/personal-loans/personal-loan-calculators/debt-consolidation-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Premier Banking" → /personal/premier has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online banking" → /personal/online-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online banking" → /personal/online-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Internet Banking" → /personal/online-banking/nab-internet-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Digital payments" → /personal/online-banking/digital-payments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "The NAB app" → /personal/online-banking/mobile-banking-app has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Fast Payments guide" → /personal/online-banking/fast-payments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Learn more" → /help-support/confirming-your-details has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Trading and investments" → /personal/trading-investments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Trading and investments" → /personal/trading-investments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online investing - nabtrade" → /personal/trading-investments/online-investing has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Investment lending" → /personal/trading-investments/investment-lending has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Cash management" → /personal/trading-investments/cash-management has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Self Managed Super Funds (SMSF)" → /personal/trading-investments/self-managed-super-fund has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial advice" → /personal/trading-investments/financial-advice has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Private Wealth" → /personal/private-wealth has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Private Wealth" → /personal/private-wealth has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Banking solutions" → /personal/private-wealth/tailored-solutions has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Investment solutions" → /personal/private-wealth/investment-solutions has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Advice solutions" → /personal/private-wealth/advice-solutions has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Our clients" → /personal/private-wealth/our-clients has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Private banking" → /personal/private-wealth/what-is-private-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Explore the latest wealth, market and investment" → https://business.nab.com.au/tag/investments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Insurance" → /personal/insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Insurance" → /personal/insurance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Home and Contents Insurance" → /personal/insurance/home-contents has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Landlord Insurance" → /personal/insurance/landlord has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Car Insurance" → /personal/insurance/car has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Caravan and trailer insurance" → /personal/insurance/caravan-trailer has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Complimentary card insurances" → /personal/insurance/complimentary-card-insurances has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International" → /personal/international-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International" → /personal/international-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Transfer money overseas" → /personal/international-banking/transfer-money-overseas has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International transaction fees on your card expl" → /personal/international-banking/international-transaction-fee has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Foreign exchange calculator and rates" → /personal/international-banking/foreign-exchange-rates has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International banking for your business" → /business/international-and-foreign-exchange has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Learn more about international transfers" → /personal/international-banking/transfer-money-overseas has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business home" → /business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business bank accounts" → /business/business-bank-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business bank accounts" → /business/business-bank-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business transaction accounts" → /business/business-bank-accounts/transaction-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Specialised accounts" → /business/business-bank-accounts/specialised-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING EYEBROW: source eyebrow "Most popular" has no build match. A small label present in the source is absent in the build — often a component that classifies its nodes by position rather than content.
+  🔴 MISSING CTA: source cta "Find out more" → /business/business-bank-accounts/transaction-accounts/no-monthly-fee-business-account?own_cid=24076-1 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Loans and finance" → /business/loans-and-finance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Loans and finance" → /business/loans-and-finance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Sustainable finance for business" → /business/loans-and-finance/sustainable-finance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business loans" → /business/loans-and-finance/business-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business overdrafts" → /business/loans-and-finance/business-overdrafts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business car and equipment finance" → /business/loans-and-finance/vehicle-or-equipment has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Trade and invoice finance" → /business/loans-and-finance/trade-and-invoice-finance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Bank guarantee" → /business/loans-and-finance/guarantee has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Home loans for business owners" → /business/loans-and-finance/home-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Looking to manage your business’s cashflow?" → /business/loans-and-finance/business-overdrafts/nab-quickbiz-overdraft has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Find out more" → /business/loans-and-finance/business-overdrafts/nab-quickbiz-overdraft has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Book a business loan appointment" → /common/forms/business/appointment-booking-request?businessunit=businessandprivatebanking&role=bdsb has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business loan repayment calculator" → /business/calculators/business-loan-repayment-calculator has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business credit cards" → /business/business-credit-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business credit cards" → /business/business-credit-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business credit card benefits" → /business/business-credit-cards/benefits has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Rewards Business Signature Card" → /business/business-credit-cards/nab-rewards-business-signature-card has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Qantas Business Signature Card" → /business/business-credit-cards/nab-qantas-business-signature-card has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Low Rate Business Card" → /business/business-credit-cards/low-rate-business-card has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Business Card" → /business/business-credit-cards/nab-business-card has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Purchasing and corporate credit cards" → /business/business-credit-cards/nab-purchasing-and-corporate-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING EYEBROW: source eyebrow "Offer" has no build match. A small label present in the source is absent in the build — often a component that classifies its nodes by position rather than content.
+  🔴 MISSING CTA: source cta "Find out more" → /business/business-credit-cards/nab-qantas-business-signature-card has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "EFTPOS, payments and merchants" → /business/payments-and-merchants has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "EFTPOS, payments and merchants" → /business/payments-and-merchants has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Accepting payments in person" → /business/payments-and-merchants/accepting-in-person-payments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "eCommerce and online payments" → /business/payments-and-merchants/ecommerce-and-online-payments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Billing and recurring payments" → /business/payments-and-merchants/billing-and-recurring-payments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Making payments" → /business/payments-and-merchants/making-payments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Merchant support centre" → /business/payments-and-merchants/merchant-support-centre has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING EYEBROW: source eyebrow "Offer" has no build match. A small label present in the source is absent in the build — often a component that classifies its nodes by position rather than content.
+  🔴 MISSING CTA: source cta "Find out more" → /business/payments-and-merchants/accepting-in-person-payments/eftpos-terminals has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online banking" → /business/online-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online banking" → /business/online-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Connect online banking" → /business/online-banking/nab-connect has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Direct Link" → /business/online-banking/nab-direct-link has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Internet Banking for business" → /business/online-banking/nab-internet-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Mobile app for business" → /business/online-banking/business-banking-app has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Compare online banking platforms" → /business/online-banking/compare-banking-options?own_cid=23014 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "View our online security tips" → /about-us/security/online-safety-tips-business?own_cid=23014 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Connect help guides" → /business/online-banking/nab-connect/help has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Join us today" → /business/online-banking/nab-connect/paths-to-apply?own_cid=24061-3 has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International and foreign exchange" → /business/international-and-foreign-exchange has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International and foreign exchange" → /business/international-and-foreign-exchange has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International money transfers for business" → /business/international-and-foreign-exchange/international-money-transfers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial markets" → /business/international-and-foreign-exchange/financial-markets has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "International payments" → /business/international-and-foreign-exchange/international-payments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Find out more about international transfers" → /business/international-and-foreign-exchange/international-money-transfers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Industry specific banking" → /business/industry has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Small business" → /business/small-business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Small business" → /business/small-business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business Moments" → /business/small-business/moments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Sole Trader Resource Centre" → /business/small-business/sole-trader-resource-centre has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Learn more" → /business/ai-for-business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Business Benefits" → /business/business-benefits has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Corporate" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Corporate" → /corporate has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Global relationships" → /corporate/global-relationships has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Industry expertise" → /corporate/industry-expertise has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Industry expertise" → /corporate/industry-expertise has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Innovating in the property sector" → /corporate/industry-expertise/innovating-in-the-property-sector has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Other specialised industries" → /corporate/industry-expertise/other-specialised-industries has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Listen now , opens in new window" → https://shows.acast.com/morningcall has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Specialist solutions" → /corporate/specialist-solutions has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Specialist solutions" → /corporate/specialist-solutions has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Specialised finance" → /corporate/specialist-solutions/specialised-finance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Creating value through working capital" → /corporate/specialist-solutions/creating-value-through-trade-and-working-capital has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Transaction banking" → /corporate/specialist-solutions/enabling-global-transactions has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Managing market risk" → /corporate/specialist-solutions/managing-market-risk has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Partnering with investors" → /corporate/specialist-solutions/partnering-investors has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Building global infrastructure" → /corporate/specialist-solutions/building-global-infrastructure has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Climate and environment" → /corporate/climate-environment has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Research and insights" → /corporate/research-insights has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "About us" is a cta in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "About us" → /about-us has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Security" → /about-us/security has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Security" → /about-us/security has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Latest scams, phishing messages and fraud alerts" → /about-us/security/latest-fraud-scam-alerts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Cyber safety training" → /about-us/security/cyber-safety-training-modules has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Personal security hub" → /about-us/security/online-safety-tips has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business security hub" → /about-us/security/online-safety-tips-business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Catch the replay" → /about-us/security/online-safety-tips/scam-awareness-week has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Careers" → /about-us/careers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Careers" → /about-us/careers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Why work at NAB" → /about-us/careers/benefits has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Search and apply for jobs" → https://careers.nab.com.au/en/listing/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Our business areas" → /about-us/careers/business-areas has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Graduate jobs and early careers" → /about-us/careers/early-careers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "First Nations careers" → /about-us/careers/first-nations-careers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Sustainability" → /about-us/sustainability has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Sustainability" → /about-us/sustainability has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Disaster relief and support" → /about-us/sustainability/natural-disaster-relief-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Foundation" → /about-us/sustainability/nab-foundation has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Environment" → /about-us/sustainability/environment has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Customer and community support" → /about-us/sustainability/customer-community-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Reporting, policies and approach" → /about-us/sustainability/reporting-policies-approach has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Climate action" → /about-us/sustainability/environment/climate-change has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "First Nations" → /about-us/sustainability/customer-community-support/first-nations-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Corporate Governance" → /about-us/corporate-governance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Corporate Governance" → /about-us/corporate-governance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Collecting your tax information" → /about-us/corporate-governance/collecting-your-tax-information has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Managing financial crime" → /about-us/corporate-governance/managing-financial-crime has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "National Australia Bank Ltd Code of Conduct" → /about-us/corporate-governance/code-of-conduct has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Code of Operation" → /about-us/corporate-governance/code-of-operation has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Shareholder Centre" → /about-us/shareholder-centre has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Shareholder Centre" → /about-us/shareholder-centre has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Dividend information" → /about-us/shareholder-centre/dividend-information has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial calendar" → /about-us/shareholder-centre/financial-calendar has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial disclosures and reporting" → /about-us/shareholder-centre/financial-disclosures-and-reporting has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Annual General Meeting" → /about-us/shareholder-centre/annual-general-meetings has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "General shareholding enquiries" → /about-us/shareholder-centre/shareholder-enquiries has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "ASX announcement" → /about-us/shareholder-centre/asx-announcement has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Capital and funding" → /about-us/capital-and-funding has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "News and Media" → /about-us/news-and-media has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Life's about more than money" → /about-us/more-than-money has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Life's about more than money" → /about-us/more-than-money has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Our sponsorships" → /about-us/more-than-money/sponsorships has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING: source heading "Supporting every goal" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 MISSING CTA: source cta "Learn more" → /about-us/more-than-money/sponsorships/supporting-every-goal has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Accessibility" → /about-us/accessibility-inclusion has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Accessibility" → /about-us/accessibility-inclusion has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Accessibility action plan" → /about-us/accessibility-inclusion/action-plan has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Branch, ATM and payments accessibility" → /about-us/accessibility-inclusion/banking-services has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Web accessibility" → /about-us/accessibility-inclusion/online-banking-features has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Mobile app accessibility" → /about-us/accessibility-inclusion/mobile-banking-features has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help and support" → # has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help and support" → /help-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help with personal banking" → /help-support/personal-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help with personal banking" → /help-support/personal-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online banking support" → /help-support/personal-banking/manage-online-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Credit and debit card support" → /help-support/personal-banking/manage-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Home loan support" → /help-support/personal-banking/manage-home-loan has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Personal loan support" → /help-support/personal-banking/manage-personal-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Term deposit support" → /help-support/personal-banking/manage-rollover has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Payments and transfers support" → /help-support/personal-banking/manage-payments-transfers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Identify and report fraud and scams" → /about-us/security/report-fraud-scams has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Dispute a transaction" → /help-support/transaction-dispute has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "How to give us feedback" → /contact-us/feedback has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Improve your financial literacy" → /personal/life-moments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Learn more" → /help-support/confirming-your-details has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help with business banking" → /help-support/business-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Help with business banking" → /help-support/business-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online business banking help" → /help-support/business-banking/manage-online-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Managing your NAB business credit cards" → /help-support/business-banking/manage-business-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Online Business Lending Support" → /help-support/business-banking/online-business-lending-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Connect guides" → /business/online-banking/nab-connect/help has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Merchant support centre" → /business/payments-and-merchants/merchant-support-centre has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Contact us" → /contact-us has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial assistance" → /help-support/financial-hardship has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial assistance" → /help-support/financial-hardship has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Home loan financial assistance" → /help-support/financial-hardship/home-loan has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Credit card and personal loan financial assistan" → /help-support/financial-hardship/credit-card-personal-loan has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business financial assistance" → /help-support/financial-hardship/business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Understanding your credit report" → /help-support/financial-hardship/credit-reporting has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Identify and report fraud and scams" → /about-us/security/report-fraud-scams has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Dispute a transaction" → /help-support/transaction-dispute has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "How to give us feedback" → /contact-us/feedback has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Contact us" → /contact-us has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Improve your financial literacy" → /personal/life-moments has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Learn more" → /help-support/confirming-your-details has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Extra Care support" → /help-support/extra-care-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "First Nations support" → /help-support/first-nations-support has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial wellbeing" → /help-support/financial-wellbeing has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Losing a loved one" → /help-support/losing-loved-ones has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Ways to bank with us" → /help-support/better-ways-to-bank has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Service Status" → /help-support/service-disruption has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Login" is a body in the source but a cta in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Internet Banking" → https://ib.nab.com.au/login has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Connect" → https://www.nab.com.au/cgi-bin/nabconnect/nc_start.pl?browser=correct has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "nabtrade" → https://www.nabtrade.com.au/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Margin Lending" → https://equitylending.nab.com.au/Login.aspx has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Gateway" → https://nabgateway-portal.nab.com.au/ebc2/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Transact" → https://transact.nab.com.au/nablogin/index.jsp has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Portal Pay" → https://nabportalpay.nab.com.au/login has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Launch" → https://nablaunch.nab.com.au has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Login" → https://ib.nab.com.au/login has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Download the NAB app" → /personal/online-banking/mobile-banking-app has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Internet Banking" → https://ib.nab.com.au/login has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Connect" → http://www.nab.com.au/cgi-bin/nabconnect/nc_start.pl has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "nabtrade" → https://www.nabtrade.com.au/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Margin Lending" → https://equitylending.nab.com.au/Login.aspx has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Gateway" → https://nabgateway-portal.nab.com.au/ebc2/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Transact" → https://transact.nab.com.au/nablogin/index.jsp has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Portal Pay" → https://nabportalpay.nab.com.au/login has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "NAB Launch" → https://nablaunch.nab.com.au has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Close login options" → #login has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "NAB Homepage" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Find out more" → /personal/bank-accounts/transaction-accounts/nab-classic-banking has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Transaction accounts" → /personal/bank-accounts/transaction-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Savings accounts" → /personal/bank-accounts/savings-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Personal loans" → /personal/personal-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "More Everyday banking" → /personal/bank-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Credit cards" → /personal/credit-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "More Credit cards" → /personal/credit-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Home loans" → /personal/home-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "More Home loans" → /personal/home-loans has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business bank accounts" → /business/business-bank-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business credit cards" → /business/business-credit-cards has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "More Business banking" → /business has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Thinking about refinancing?" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Need help choosing an account?" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Get the most out of business banking" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Loans and finance" → /business/loans-and-finance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Business savings accounts" → /business/business-bank-accounts/savings-and-deposit-accounts has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Award-winning banking" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "We’re here to help with whatever life lo" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Buying your first home" → /personal/home-loans/first-home-buyers has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Small Business Hub" → /business/small-business/hub has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "More reasons to choose NAB" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "How to contact us" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "NAB banking contacts" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Visit a NAB branch" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Feedback" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 ROLE SWAP: "Interpreters available" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Italiano , opens in new window" → /about-us/accessibility-inclusion/interpreter-services/ita has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "National Relay Service" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "National Relay Service phone numbers and links ," → https://www.accesshub.gov.au/about-the-nrs/nrs-call-numbers-and-links has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "National Relay Service options , opens in new wi" → https://www.accesshub.gov.au/services has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING HEADING: source heading "Terms and Conditions" has no build heading of the same text. A source heading has no build equivalent — a dropped or renamed section.
+  🔴 ROLE SWAP: "Quick links" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Contact us" → /contact-us has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Financial assistance" → /help-support/financial-hardship has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Shareholder Centre" → /about-us/shareholder-centre has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Careers at NAB , opens in new window" → https://careers.nab.com.au/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Accessibility" → /about-us/accessibility-inclusion has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Sustainability" → /about-us/sustainability has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Corporate governance" → /about-us/corporate-governance has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Policies and terms" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "Banking Code of Practice" → /about-us/corporate-governance/banking-code-of-practice has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 ROLE SWAP: "Connect with us" is a body in the source but a heading in build — Same text rendered under a different role (e.g. label vs body) — check the component field mapping.
+  🔴 MISSING CTA: source cta "LinkedIn , opens in new window" → https://www.linkedin.com/company/national-australia-bank has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Facebook , opens in new window" → https://www.facebook.com/NAB has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "Instagram , opens in new window" → https://www.instagram.com/nab/ has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "YouTube , opens in new window" → https://www.youtube.com/user/nab has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "X , opens in new window" → https://x.com/NAB has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "TikTok , opens in new window" → https://www.tiktok.com/@nab has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🔴 MISSING CTA: source cta "nab.com.au/TMD" → /important-information/target-market-determinations has no build link. A link present in the source is absent in the build — confirm it was intentionally removed.
+  🟠 EXTRA: build heading "Looking for a Personal Loan?" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Italiano, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "National Relay Service phone numbers and links, " has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "National Relay Service options, opens in new win" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Careers at NAB, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "LinkedIn, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Facebook, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Instagram, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "YouTube, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "X, opens in new window" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "TikTok, opens in new window" has no source source — Unexpected node with no source.
+  🟡 MISSING BODY: source body "Bank with NAB | Bank accounts, home loans and cr"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Search"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Search nab.com.au"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Search nab.com.au"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "close notification"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Notification:"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "This website doesn't support your browser and ma"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "window.onload = function () { var ie11Regex = /T"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Your partner for zero fuss banking at every stag"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Our has , leaving a little more in your pocket. "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "no monthly account fee"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "You might be interested in"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Tools and calculators"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "You may be interested in"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Get the most out of your NAB credit card"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Whether you're shopping, dining, or planning you"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Tools and calculators"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Have we contacted you about confirming your deta"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Find out why we have and what we need you to do."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Private Wealth Insights"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Stay informed with expert perspectives on wealth"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Need more help?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "$0 international transfer fee"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Transfer your money securely overseas using NAB "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "NAB Business Transaction Account with $0 monthly"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Control your business costs, pay only for what y"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "With a NAB QuickBiz unsecured business overdraft"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Related tools and calculators"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Unlock up to 200,000 bonus Qantas Points"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Apply for a new NAB Qantas Business Signature Ca"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Eligibility criteria and terms and conditions ap"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Enjoy a 12-month rental fee rebate"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Get a once-off $300 rebate to cover 12 months of"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Available for eligible new and existing customer"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Related tools and help"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "NAB Connect - our award-winning platform"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "#1 for Platform Overall Features and Functionali"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Coalition Greenwich Voice of Client 2026 Austral"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "$0 international transfer fees"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Transfer your money securely overseas using NAB "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "AI for Business Masterclass"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Work smarter with AI. Join NAB and the National "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "The Morning Call Podcast"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Start your day with the NAB Morning Call Podcast"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "NAB’s Big Scam Education Conversation"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "NAB’s Big Scam Education Conversation was held o"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "More about sustainability"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "From NAB AFL Auskick to the big time."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Need more help?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Have we contacted you about confirming your deta"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Find out why we have and what you need to do."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Troubleshooting guides"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Need more help?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Have we contacted you about confirming your deta"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Find out why we have and what you need to do."… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Search nab.com.au"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Ready for a new everyday account?"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "With our NAB Classic Banking account you'll get "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Open in less than 5 minutes"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Everyday banking"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Credit cards"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Home loans"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Business banking"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "<!-- No JS: force visible (anti-flash CSS can't "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "<p>This section contains Important Information r"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Apologies but the Important Information section "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Any advice has been prepared without considering"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Target Market Determinations for these products "… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Quick links"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "About us"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "About us"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Policies and terms"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "Connect with us"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA: build body "We offer competitive interest rates, no exit fee" has no source source — Build copy with no source — invented/placeholder; confirm intended.
+  🟡 EDITABLE COUNT: build has 50 outermost editable element(s) vs 67 in the source — fewer outermost editable elements after decoration usually means authored elements were rebuilt/merged — see deploy SKILL.md § Experience Workspace editability contract (run ew-editability-probe.mjs on the build URL for the per-block verdict).

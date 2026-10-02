@@ -1,0 +1,9 @@
+chrome-parity @ 1440px, tolerance 1px
+  live:  https://www.nab.com.au/ (live side from cache stardust/replica/gates/index-1440/chrome-live2.json, probed 2026-09-23T01:34:02.194Z — delete the file to re-probe)
+  build: http://localhost:8791/index-proposed.html
+
+■ header: ✓ parity — 7 paired of 7/7 texts, 3/3 icons
+
+■ footer: ✓ parity — 42 paired of 42/42 texts, 14/14 icons
+
+✓ chrome parity within tolerance — run crop-compare (pass bar item 5) to confirm in pixels.

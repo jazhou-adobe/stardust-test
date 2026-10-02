@@ -1,0 +1,52 @@
+
+Content diff @ 1440px (profile "generic", root "main")
+  source: 535 text nodes — 6 headings, 3 eyebrows, 414 CTAs, 112 body; 26 img
+  build: 575 text nodes — 6 headings, 3 eyebrows, 455 CTAs, 111 body; 27 img
+  editable texts (outermost h*/p/ul/ol): source 66 / build 117
+
+Findings: 45 (0 structural 🔴)
+  🟠 EXTRA: build cta "Open an account online" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Open a bank account for a child" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Help me choose a bank account" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "What will my repayments be?" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "How much can I borrow?" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "How to calculate stamp duty" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "How much equity do I have?" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Investing in property" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Home and property guides" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Talking to a home loan expert" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Borrowing power calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Personal loan repayment calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Debt consolidation calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Foreign exchange calculator and rates" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "International banking for your business" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Book a business loan appointment" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Business loan repayment calculator" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Compare online banking platforms" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "View our online security tips" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "NAB Connect help guides" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Climate action" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "First Nations" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Identify and report fraud and scams" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Dispute a transaction" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "How to give us feedback" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Improve your financial literacy" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "NAB Connect guides" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Merchant support centre" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Contact us" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Identify and report fraud and scams" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Dispute a transaction" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "How to give us feedback" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Contact us" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Improve your financial literacy" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Personal" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Business" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Corporate" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "About us" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Help and support" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Buying your first home" has no source source — Unexpected node with no source.
+  🟠 EXTRA: build cta "Contact us" has no source source — Unexpected node with no source.
+  🟠 FONT FORK: 5 matched line(s) render a DIFFERENT face: body "Your partner for zero fuss b": source Segoe UI→sys vs build Segoe UI→sys (12%); body "Get the most out of your NAB": source Segoe UI→sys vs build Segoe UI→sys (10%); body "Private Wealth Insights": source Segoe UI→sys vs build Segoe UI→sys (13%); body "AI for Business Masterclass": source Segoe UI→sys vs build Segoe UI→sys (11%); body "Quick links": source Segoe UI→sys vs build Segoe UI→sys (-11%). A matched line renders a different typeface. A "→sys" on the source side means it named a font it never loaded; confirm the substitution is intended, else load the missing face.
+  🟡 MISSING BODY: source body "Bank with NAB | Bank accounts, home loans and cr"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 MISSING BODY: source body "window.onload = function () { var ie11Regex = /T"… not found in build. Source body copy not found in the build — confirm a rewrite vs a drop.
+  🟡 EXTRA: build body "Login" has no source source — Build copy with no source — invented/placeholder; confirm intended.

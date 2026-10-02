@@ -1,0 +1,1555 @@
+
+Visual diff @ 1440px (profile "generic") — screenshots in stardust/replica/gates/index-1440/vdiff/
+
+build red flags (advisory): 
+  • CONTENT GAP: source 71 headings / 12 content-boxes / main 5558px vs build 51 / 11 / 5582px. Heading/box/height shortfall vs the source — likely dropped or duplicated content.
+  • SURFACE/GROUND MISMATCH: heading "Latest offers" is rgb(0, 0, 0) in build vs rgb(255, 255, 255) in source (luminance 0 vs 255). A matched heading renders on a different ground (dark vs light) — check the section background.
+  • STRETCHED IMAGE: 025-banner-relaxing-with-tea-with-star.jpeg natural 1920x640 → rendered 1440x438. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • STRETCHED IMAGE: nab-goodies-refresh-rollout-masthead-3000x1000.jpg natural 3000x1000 → rendered 395x200. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • STRETCHED IMAGE: footy-perks-masthead-3000x1000.jpg natural 3000x1000 → rendered 395x200. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • STRETCHED IMAGE: woman-shining-spotlight-on-scammer-3000x1000.jpg natural 3000x1000 → rendered 395x200. Image aspect ratio differs from its natural ratio — constrain one dimension (e.g. height:auto), unless an intentional cover crop.
+  • FLUSH-LEFT TEXT: <h1> "NAB Homepage" sits at left -1px (no padding). Left-anchored text at the viewport edge — likely a dropped max-width / centering container.
+
+Full metrics JSON (compare source vs build: heading colors, eyebrow colors, image dims, full-bleed):
+{
+ "source": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5558,
+  "textLen": 5118,
+  "images": [
+   {
+    "src": "nab-app-logo-283x283.png",
+    "natural": "283x283",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-logo.svg",
+    "natural": "60x30",
+    "rendered": "88x50",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "fy26-deposits-choose-transactions-banner-3000x1000.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "pay-by-card-3000x1000.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "jocelyn-bloor-masthead-3000x1000.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "private-wealth-insights-500x297.jpeg",
+    "natural": "500x297",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "international-money-masthead-2500x900.jpeg",
+    "natural": "1440x518",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "girl-smiling-bta-banner-3000x1000.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "quickbiz-overdraft-meganav-offer-card-3000x1000.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "qantas-business-rewards-signature-shine-meganav-2048x682.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-eftpos-machine-spotlight-3000x1000.png",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-connect-smile-woman-laptop-3000x1000.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "corporate-city-skyline-3000x1000.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ai-for-business-masterclass-megamenu.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "headphones-banner-2500x900.jpeg",
+    "natural": "1440x518",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "banker-holding-a-red-falg-scam-week-3000x1000px.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "auskick-banner-3000x1000.jpeg",
+    "natural": "1440x480",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "025-banner-relaxing-with-tea-with-star.jpeg",
+    "natural": "1440x480",
+    "rendered": "1440x438",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "woman-on-couch-with-laptop-500x466.png",
+    "natural": "500x466",
+    "rendered": "264x246",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "woman-comparing-accounts-546x246.jpeg",
+    "natural": "546x246",
+    "rendered": "544x245",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shine-business-panel-1430x1020.jpeg",
+    "natural": "1430x1020",
+    "rendered": "504x359",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bank-of-the-year-1600x1600.png",
+    "natural": "1440x1440",
+    "rendered": "336x336",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-goodies-refresh-rollout-masthead-3000x1000.jpg",
+    "natural": "3000x1000",
+    "rendered": "395x200",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "footy-perks-masthead-3000x1000.jpg",
+    "natural": "3000x1000",
+    "rendered": "395x200",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "woman-shining-spotlight-on-scammer-3000x1000.jpg",
+    "natural": "3000x1000",
+    "rendered": "395x200",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "national-interpreter-icon.png",
+    "natural": "600x607",
+    "rendered": "75x76",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "src=3347639;type=brand839;cat=vizte001;u18=%7B%22SVI%22:%22%22,%22MID%22:%2210724902706308374390639154412462961778%22,%22DDXUUID%22:null,%22SSC%22:null,%22SCVSync%22:1%7D;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;ord=3848510418093.7393?",
+    "natural": "1x1",
+    "rendered": "1x1",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Latest offers",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "16px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "NAB Mobile Banking app",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Update your browser.",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "16px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Your partner for zero fuss banki",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "You might be interested in",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Tools and calculators",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "You may be interested in",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Get the most out of your NAB cre",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Tools and calculators",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Have we contacted you about conf",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Private Wealth Insights",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Need more help?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "$0 international transfer fee",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Most popular\n    \n\n\n    \n\n\n\n    ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Looking to manage your business’",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Related tools and calculators",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Offer\n    \n\n\n    \n\n\n\n           ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Offer\n    \n\n\n    \n\n\n\n           ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Related tools and help",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "NAB Connect - our award-winning ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "$0 international transfer fees",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "AI for Business Masterclass",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "The Morning Call Podcast",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "NAB’s Big Scam Education Convers",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "More about sustainability",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Supporting every goal",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Need more help?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Have we contacted you about conf",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Troubleshooting guides",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Need more help?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Have we contacted you about conf",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h1",
+    "text": "NAB Homepage",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "48px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Looking for a Personal Loan?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Everyday banking",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Everyday banking",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Credit cards",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Credit cards",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Home loans",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Home loans",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Business banking",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Business banking",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Thinking about refinancing?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Need help choosing an account?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Get the most out of business ban",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Award-winning banking",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "We’re here to help with whatever",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Buying your first home",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Small Business Hub",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Moving to Australia",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Managing your money",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "More reasons to choose NAB",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "NAB Goodies",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Footy Perks",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "NAB’s online security, fraud and",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "We’re here to help",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "How to contact us",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "NAB banking contacts",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Visit a NAB branch",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Feedback",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Interpreters available",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "National Relay Service",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Important Information",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Terms and Conditions",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Quick links",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Quick links",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "About us",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "About us",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Policies and terms",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Policies and terms",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Connect with us",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Connect with us",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Most popular",
+    "color": "rgb(194, 0, 0)"
+   },
+   {
+    "text": "Offer",
+    "color": "rgb(194, 0, 0)"
+   },
+   {
+    "text": "Offer",
+    "color": "rgb(194, 0, 0)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "p",
+    "text": "Bank with NAB | Bank account",
+    "left": -1
+   },
+   {
+    "tag": "h1",
+    "text": "NAB Homepage",
+    "left": -1
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "notification-banner",
+    "width": 1440,
+    "left": 0
+   },
+   {
+    "sel": "nab-header-bar__search-container",
+    "width": 884,
+    "left": 176
+   },
+   {
+    "sel": "grid--12",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "nab-accordion",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "aem-Grid",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "aem-Grid",
+    "width": 1168,
+    "left": 136
+   },
+   {
+    "sel": "aem-Grid",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "cmp-title",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "nab-text",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "cmp-title",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "cmp-title",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "cmp-title",
+    "width": 1141,
+    "left": 203
+   }
+  ]
+ },
+ "build": {
+  "viewport": 1440,
+  "blankRender": false,
+  "mainHeight": 5582,
+  "textLen": 5043,
+  "images": [
+   {
+    "src": "fy26-deposits-choose-transactions-banner-3000x1000.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "pay-by-card-3000x1000.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "jocelyn-bloor-masthead-3000x1000.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "private-wealth-insights-500x297.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "international-money-masthead-2500x900.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "girl-smiling-bta-banner-3000x1000.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "quickbiz-overdraft-meganav-offer-card-3000x1000.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "qantas-business-rewards-signature-shine-meganav-2048x682.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-eftpos-machine-spotlight-3000x1000.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-connect-smile-woman-laptop-3000x1000.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "corporate-city-skyline-3000x1000.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "ai-for-business-masterclass-megamenu.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "headphones-banner-2500x900.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "banker-holding-a-red-falg-scam-week-3000x1000px.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "auskick-banner-3000x1000.jpeg",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-app-logo-283x283.png",
+    "natural": "0x0",
+    "rendered": "0x0",
+    "stretched": 0,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-logo.svg",
+    "natural": "60x30",
+    "rendered": "88x50",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "025-banner-relaxing-with-tea-with-star.jpeg",
+    "natural": "1920x640",
+    "rendered": "1440x438",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "woman-on-couch-with-laptop-500x466.png",
+    "natural": "500x466",
+    "rendered": "264x246",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "woman-comparing-accounts-546x246.jpeg",
+    "natural": "546x246",
+    "rendered": "544x245",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "shine-business-panel-1430x1020.jpeg",
+    "natural": "1430x1020",
+    "rendered": "504x359",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "bank-of-the-year-1600x1600.png",
+    "natural": "1440x1440",
+    "rendered": "336x336",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "nab-goodies-refresh-rollout-masthead-3000x1000.jpg",
+    "natural": "3000x1000",
+    "rendered": "395x200",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "footy-perks-masthead-3000x1000.jpg",
+    "natural": "3000x1000",
+    "rendered": "395x200",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "woman-shining-spotlight-on-scammer-3000x1000.jpg",
+    "natural": "3000x1000",
+    "rendered": "395x200",
+    "stretched": true,
+    "failedToLoad": false
+   },
+   {
+    "src": "national-interpreter-icon.png",
+    "natural": "600x607",
+    "rendered": "75x76",
+    "stretched": false,
+    "failedToLoad": false
+   },
+   {
+    "src": "yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+    "natural": "1x1",
+    "rendered": "1x1",
+    "stretched": false,
+    "failedToLoad": false
+   }
+  ],
+  "headings": [
+   {
+    "tag": "h2",
+    "text": "Latest offers",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Your partner for zero fuss banki",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "You might be interested in",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Tools and calculators",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "You may be interested in",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Get the most out of your NAB cre",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Tools and calculators",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Have we contacted you about conf",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Private Wealth Insights",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Need more help?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "$0 international transfer fee",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Most popular\n                   ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Looking to manage your business’",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Related tools and calculators",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Offer\n                          ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Offer\n                          ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Related tools and help",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "NAB Connect - our award-winning ",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "$0 international transfer fees",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "AI for Business Masterclass",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "The Morning Call Podcast",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "NAB’s Big Scam Education Convers",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "More about sustainability",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Supporting every goal",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Need more help?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Have we contacted you about conf",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Troubleshooting guides",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Need more help?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Have we contacted you about conf",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "NAB Mobile Banking app",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Update your browser.",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Terms and Conditions",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "18.72px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h1",
+    "text": "NAB Homepage",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "48px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Looking for a Personal Loan?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "48px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Thinking about refinancing?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Need help choosing an account?",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Get the most out of business ban",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Award-winning banking",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "We’re here to help with whatever",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "More reasons to choose NAB",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "We’re here to help",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "How to contact us",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "NAB banking contacts",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Visit a NAB branch",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h3",
+    "text": "Feedback",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Interpreters available",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "National Relay Service",
+    "color": "rgb(0, 0, 0)",
+    "fontSize": "32px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Quick links",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "About us",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Policies and terms",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   },
+   {
+    "tag": "h2",
+    "text": "Connect with us",
+    "color": "rgb(255, 255, 255)",
+    "fontSize": "24px",
+    "family": "Segoe UI",
+    "fontLoaded": false
+   }
+  ],
+  "eyebrows": [
+   {
+    "text": "Most popular",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Offer",
+    "color": "rgb(0, 0, 0)"
+   },
+   {
+    "text": "Offer",
+    "color": "rgb(0, 0, 0)"
+   }
+  ],
+  "flushText": [
+   {
+    "tag": "h1",
+    "text": "NAB Homepage",
+    "left": -1
+   }
+  ],
+  "contentBoxes": [
+   {
+    "sel": "masthead__inner",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "feature-pair",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "award",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "life-cards",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "reasons-cards",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "help-grid",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "contact-grid",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "interpreters__body",
+    "width": 1141,
+    "left": 203
+   },
+   {
+    "sel": "nrs",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "nab-footer__columns",
+    "width": 1248,
+    "left": 96
+   },
+   {
+    "sel": "nab-footer__legal",
+    "width": 1248,
+    "left": 96
+   }
+  ]
+ }
+}

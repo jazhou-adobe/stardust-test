@@ -1,0 +1,22 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:deploy",
+    "writtenAt": "2026-09-24T01:45:00Z",
+    "method": "read of this target's scripts/scripts.js + scripts/aem.js + head.html",
+    "stardustVersion": "0.10.0"
+  },
+  "runtime": "vanilla-eds",
+  "blockWrapperClass": "block",
+  "buttonClasses": ".button / .button.primary / .button.secondary / .button.accent, in p.button-wrapper",
+  "buttonization": "formatted-only",
+  "fragmentScriptPolicy": "inert-innerHTML",
+  "emptySectionCollapse": true,
+  "notes": [
+    "decorateButtons requires authored <strong> (primary), <em> (secondary) or both (accent); a bare link in a p is NOT buttonized.",
+    "decorateButtons skips links containing an <img> and links whose p has other text.",
+    "buildAutoBlocks auto-blocks a[href*='/fragments/'] and a[href*='/widgets/'] (buildWidgetAutoBlocks). No NAB href contains either segment, so no auto-block collision.",
+    "head.html sets a strict CSP with require-trusted-types-for 'script'; scripts.js installs a default trusted-types policy that strips <script> from createContextualFragment sinks. Inline scripts in authored content are inert.",
+    "styles.css ships body{display:none} + body.appear{display:block}; loadEager adds .appear. Keep the gate.",
+    "loadFonts() loads styles/fonts.css eagerly at >=900px or on repeat views, always in loadLazy."
+  ]
+}

@@ -1,0 +1,355 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-22T01:10:00Z",
+    "againstInput": "https://www.nab.com.au/",
+    "readArtifacts": [
+      "stardust/current/pages/index.json",
+      "stardust/current/pages/personal.json",
+      "stardust/current/pages/business.json",
+      "stardust/current/pages/personal-home-loans.json",
+      "stardust/current/pages/contact-us.json",
+      "stardust/current/assets/screenshots/*.png",
+      "stardust/current/.cache/brand/*.json"
+    ],
+    "synthesizedInputs": [],
+    "stardustVersion": "0.10.0",
+    "notes": [
+      "Palette/type/motif values are cross-page aggregates over all 5 extracted pages, weighted by element count (brand-surface.md § Aggregation scope).",
+      "Home-only mode for borderRadius (4px) agrees with the cross-page mode (4px) — no divergence to surface.",
+      "voice.heroHeadline is taken from the screenshot-verified capture run. A second live render returned a DIFFERENT masthead slide ('Looking for a Personal Loan?') from identical markup, so the home/personal masthead ROTATES SERVER-SIDE per request. Captured as heroRotates: true; downstream must not treat one slide as the canonical hero.",
+      "cssBackgrounds is empty on all 5 pages. This was independently re-verified by a second capture implementation walking both element and ::before/::after computed backgroundImage — NAB composes every hero and card image as an <img>/<picture> (1440x480 mastheads). The empty array is a true reading, not a silently-failed background walk."
+    ]
+  },
+  "site": {
+    "name": "NAB",
+    "tagline": "more than money",
+    "originUrl": "https://www.nab.com.au/"
+  },
+  "origins": [
+    {
+      "origin": "https://www.nab.com.au",
+      "role": "primary",
+      "pagesCaptured": 5,
+      "contributedSignals": []
+    }
+  ],
+  "logo": {
+    "kind": "img-svg",
+    "source": "https://www.nab.com.au/etc.clientlibs/nab/clientlibs/clientlib-generated-components/resources/images/svg/nab-logo.svg",
+    "file": "assets/logo.svg",
+    "alt": "NAB - more than money",
+    "renderedSize": { "w": 60, "h": 30 },
+    "placement": "header, left, on a black bar",
+    "colors": ["#ED0000", "#C20000", "#FFFFFF"],
+    "description": "Six-point NAB star in a red gradient, with the lockup 'more than money' set in three stacked lines to its right in white.",
+    "selector": "header a[class*=logo] img",
+    "chainStep": "img with logo-ish class"
+  },
+  "favicon": {
+    "source": "https://www.nab.com.au/etc.clientlibs/nab/clientlibs/clientlib-site/resources/images/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "palette": [
+    {
+      "role": "background",
+      "value": "#F5F5F5",
+      "rgb": "rgb(245, 245, 245)",
+      "occurrences": 69110,
+      "evidence": "body computed background-color on all 5 pages; 69,110 of 148,000 sampled screenshot pixels on index.png",
+      "sources": ["index", "personal", "business", "personal-home-loans", "contact-us"]
+    },
+    {
+      "role": "surface",
+      "value": "#FFFFFF",
+      "rgb": "rgb(255, 255, 255)",
+      "occurrences": 68,
+      "evidence": "card and panel background-color; the dominant card fill in every screenshot",
+      "sources": ["index", "personal", "business", "personal-home-loans", "contact-us"]
+    },
+    {
+      "role": "text",
+      "value": "#000000",
+      "rgb": "rgb(0, 0, 0)",
+      "occurrences": 360,
+      "evidence": "computed color on leaf text nodes, cross-page mode (360 occurrences); also the site header bar fill",
+      "sources": ["index", "personal", "business", "personal-home-loans", "contact-us"]
+    },
+    {
+      "role": "primary",
+      "value": "#C20000",
+      "rgb": "rgb(194, 0, 0)",
+      "occurrences": 74,
+      "evidence": "primary button fill, link colour, chevron affordances, active nav underline; 34 background + 40 text occurrences cross-page",
+      "sources": ["index", "personal", "business", "personal-home-loans", "contact-us"]
+    },
+    {
+      "role": "primary-hover",
+      "value": "#BE0D00",
+      "rgb": "rgb(190, 13, 0)",
+      "occurrences": 5,
+      "evidence": "Login button fill in the header bar",
+      "sources": ["index", "contact-us"]
+    },
+    {
+      "role": "accent-success",
+      "value": "#2C853C",
+      "rgb": "rgb(44, 133, 60)",
+      "occurrences": 3,
+      "evidence": "the conversion CTA fill — 'Get started' (home masthead), 'Talk to an expert' (home loans). Green, not red, is the transact button.",
+      "sources": ["index", "personal-home-loans"]
+    },
+    {
+      "role": "accent-slate",
+      "value": "#3E5058",
+      "rgb": "rgb(62, 80, 88)",
+      "occurrences": 5,
+      "evidence": "the 'Internet Banking' selector block in the header utility bar",
+      "sources": ["index", "personal", "business", "personal-home-loans", "contact-us"]
+    },
+    {
+      "role": "border",
+      "value": "#B3B3B3",
+      "rgb": "rgb(179, 179, 179)",
+      "occurrences": 95,
+      "evidence": "cross-page mode of border-top-color on bordered elements — card outlines and list rules",
+      "sources": ["index", "personal", "business", "personal-home-loans", "contact-us"]
+    },
+    {
+      "role": "border-subtle",
+      "value": "#E6E6E6",
+      "rgb": "rgb(230, 230, 230)",
+      "occurrences": 6526,
+      "evidence": "secondary panel fill / hairline; 6,526 sampled screenshot pixels on index.png",
+      "sources": ["index", "personal-home-loans"]
+    },
+    {
+      "role": "text-muted",
+      "value": "#4D4D4D",
+      "rgb": "rgb(77, 77, 77)",
+      "occurrences": 6,
+      "evidence": "supporting microcopy ('Open in less than 5 minutes', 'Schedule your chat in 2 minutes.')",
+      "sources": ["index", "personal-home-loans"]
+    }
+  ],
+  "type": {
+    "headingFamily": "source-sans-pro",
+    "bodyFamily": "source-sans-pro",
+    "stack": "source-sans-pro, helvetica, -apple-system, blinkmacsystemfont, \"Segoe UI\", roboto, oxygen-sans, ubuntu, cantarell, \"Helvetica Neue\", sans-serif",
+    "singleFamily": true,
+    "evidence": "computed font-family on 4,126 of 4,131 visible elements cross-page is the same stack — NAB runs one family for the entire site.",
+    "files": [
+      { "url": "https://www.nab.com.au/etc.clientlibs/nab/clientlibs/clientlib-generated-components/resources/fonts/source-sans-pro-light.woff2", "file": "assets/fonts/source-sans-pro-light.woff2", "weight": 300, "licensing": "open (SIL OFL 1.1) — self-hostable on the target domain" },
+      { "url": "https://www.nab.com.au/etc.clientlibs/nab/clientlibs/clientlib-generated-components/resources/fonts/source-sans-pro-regular.woff2", "file": "assets/fonts/source-sans-pro-regular.woff2", "weight": 400, "licensing": "open (SIL OFL 1.1) — self-hostable on the target domain" },
+      { "url": "https://www.nab.com.au/etc.clientlibs/nab/clientlibs/clientlib-generated-components/resources/fonts/source-sans-pro-semibold.woff2", "file": "assets/fonts/source-sans-pro-semibold.woff2", "weight": 600, "licensing": "open (SIL OFL 1.1) — self-hostable on the target domain" },
+      { "url": "https://www.nab.com.au/etc.clientlibs/nab/clientlibs/clientlib-generated-components/resources/fonts/source-sans-pro-bold.woff2", "file": "assets/fonts/source-sans-pro-bold.woff2", "weight": 700, "licensing": "open (SIL OFL 1.1) — self-hostable on the target domain" }
+    ],
+    "ramp": [
+      { "role": "h1", "size": "48px", "weight": 300, "lineHeight": "1.1", "occurrences": 5, "note": "page masthead title; Light weight at display size is the signature" },
+      { "role": "h2", "size": "32px", "weight": 300, "lineHeight": "40px", "occurrences": 70, "note": "section heading — the most common heading on the site" },
+      { "role": "h3", "size": "24px", "weight": 700, "lineHeight": "32px", "occurrences": 31, "note": "card title (Bold)" },
+      { "role": "h3-alt", "size": "24px", "weight": 300, "lineHeight": "32px", "occurrences": 16, "note": "sub-section heading (Light) — the same size carries two weights by role" },
+      { "role": "h4", "size": "20px", "weight": 600, "lineHeight": "1.2", "occurrences": 10 },
+      { "role": "body", "size": "16px", "weight": 400, "lineHeight": "24px", "occurrences": 408, "note": "p and li; 1.5 line-height" },
+      { "role": "link", "size": "16px", "weight": 600, "lineHeight": "24px", "occurrences": 225, "note": "in-content links are Semibold, not underlined by default" },
+      { "role": "small", "size": "14px", "weight": 400, "lineHeight": "20px", "occurrences": 8, "note": "disclaimers and footnotes" }
+    ],
+    "scaleAudit": {
+      "kind": "ad-hoc",
+      "sizes": [14, 16, 20, 24, 32, 48],
+      "ratios": [1.14, 1.25, 1.2, 1.33, 1.5],
+      "note": "Steps are not a constant ratio — the ramp grows by convenience (a 4px/8px grid), not by a modular scale. Weight, not size, does most of the hierarchy work: 300 for display, 700 for card titles, 600 for links."
+    },
+    "letterSpacing": "normal everywhere — no tracking adjustments observed at any size"
+  },
+  "spacing": {
+    "baseUnit": "4px",
+    "evidence": "every observed padding, radius and gap is a multiple of 4",
+    "sectionPadding": { "primary": "40px top / 40px bottom", "occurrences": 17, "secondary": "40px top / 0 bottom", "secondaryOccurrences": 10 },
+    "containerMaxWidth": "1248px",
+    "containerEvidence": "computed max-width on the content container, consistent across pages; gutters bring the visible content band to ~1248px inside a 1440px viewport",
+    "headerHeight": "64px",
+    "headerEvidence": "--header-bar-height custom property captured on all 5 pages"
+  },
+  "motifs": {
+    "borderRadius": {
+      "primary": "4px",
+      "primaryOccurrences": 72,
+      "secondary": "8px",
+      "secondaryOccurrences": 38,
+      "circle": "50%",
+      "circleOccurrences": 13,
+      "pill": null,
+      "note": "Restrained. 4px on buttons and inputs, 8px on cards, 50% on avatar/icon discs. No pill buttons anywhere.",
+      "sources": ["index", "business", "personal-home-loans"]
+    },
+    "shadows": [
+      { "value": "rgb(128, 128, 128) 0px 0px 4px 0px", "occurrences": 25, "note": "the standard card lift — a tight, even grey halo rather than a directional drop" },
+      { "value": "rgba(0, 0, 0, 0.32) 0px 0px 4px 0px", "occurrences": 10 },
+      { "value": "rgba(0, 0, 0, 0.6) 0px 1px 3px 0px", "occurrences": 5 }
+    ],
+    "gradients": {
+      "inventory": [],
+      "note": "No CSS gradients in computed styles. The red masthead gradient on /business is baked into a raster, and the logo's gradient lives inside the SVG."
+    },
+    "patterns": [
+      { "name": "masthead-with-overlay-card", "description": "Full-bleed 1440x480 photograph with a white card floated over its left third carrying eyebrow, H1, lede, microcopy and CTA. The dominant page-opening device on 4 of 5 pages.", "sources": ["index", "personal", "personal-home-loans", "contact-us"] },
+      { "name": "card-grid", "description": "2-, 3- or 5-up grid of white cards with 8px radius, thin grey border, a bold title and a red chevron affordance at the right.", "sources": ["index", "business", "personal-home-loans", "contact-us"] },
+      { "name": "quick-links-list", "description": "Two-column list of labelled rows separated by hairlines, each with a leading line-icon and a trailing red chevron.", "sources": ["index", "personal-home-loans"] },
+      { "name": "icon-card", "description": "Card whose top half is a light-grey panel holding a red/black line illustration, with title and body beneath.", "sources": ["personal-home-loans", "business"] },
+      { "name": "sticky-subnav", "description": "In-page tab bar (Rates / Why NAB? / Tools & calculators / Guides) with a red active underline and a persistent CTA on the right, sitting directly under the masthead.", "sources": ["personal-home-loans"] },
+      { "name": "topic-selector", "description": "Full-width row of equal-width bordered buttons acting as a topic filter.", "sources": ["contact-us"] },
+      { "name": "side-tab", "description": "Fixed red 'Give Feedback' tab anchored to the right viewport edge.", "sources": ["personal-home-loans"] },
+      { "name": "chevron-affordance", "description": "A red right-chevron is the site's universal 'there is more here' mark — on cards, list rows and text links alike.", "sources": ["index", "personal", "business", "personal-home-loans", "contact-us"] }
+    ],
+    "photography": "Editorial, warmly lit, people-centred, frequently staged around the NAB star (a star-shaped hole punched through a wall). Studio lighting rigs are deliberately left in frame, so the photography reads as knowingly constructed rather than documentary."
+  },
+  "componentStyle": {
+    "buttonPrimary": {
+      "background": "#C20000",
+      "color": "#FFFFFF",
+      "border": "1px solid #C20000",
+      "radius": "4px",
+      "padding": "10px 24px",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "occurrences": 14
+    },
+    "buttonConversion": {
+      "background": "#2C853C",
+      "color": "#FFFFFF",
+      "border": "1px solid #2C853C",
+      "radius": "4px",
+      "padding": "10px 24px",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "occurrences": 3,
+      "note": "Green is reserved for the single highest-intent action on a page ('Get started', 'Talk to an expert'); red primary carries everything else."
+    },
+    "buttonDark": {
+      "background": "#000000",
+      "color": "#FFFFFF",
+      "radius": "4px",
+      "padding": "13px",
+      "fontSize": "16px",
+      "fontWeight": 700,
+      "occurrences": 2,
+      "note": "Used where the surface behind is NAB red (the /business masthead), since a red button would vanish."
+    },
+    "buttonTertiary": {
+      "background": "transparent",
+      "color": "#C20000",
+      "border": "none",
+      "radius": "4px",
+      "padding": "12px 4px",
+      "fontSize": "16px",
+      "fontWeight": 400,
+      "occurrences": 23,
+      "note": "The most common 'button' on the site is really an underlined red text link with a trailing chevron."
+    },
+    "card": {
+      "background": "#FFFFFF",
+      "border": "1px solid #B3B3B3",
+      "radius": "8px",
+      "shadow": "rgb(128, 128, 128) 0px 0px 4px 0px",
+      "titleSize": "24px",
+      "titleWeight": 700,
+      "bodySize": "16px"
+    },
+    "input": {
+      "radius": "4px",
+      "border": "1px solid #B3B3B3",
+      "fontSize": "16px"
+    }
+  },
+  "systemComponents": [
+    {
+      "name": "site-header",
+      "presentOn": 5,
+      "of": 5,
+      "description": "64px black bar, full-bleed. NAB star logo left; five primary nav items (Personal, Business, Corporate, About us, Help and support) with a red 2px underline marking the active section; search icon; a slate (#3E5058) 'Internet Banking' select; a red 'Login' button flush to the right edge. Each primary nav item opens a full-width mega-menu whose panels carry their own promo images.",
+      "position": "relative (not sticky at 1440)",
+      "height": 64,
+      "links": ["Personal", "Business", "Corporate", "About us", "Help and support", "Login"],
+      "evidence": "identical fingerprint on all 5 captured pages"
+    },
+    {
+      "name": "breadcrumb",
+      "presentOn": 2,
+      "of": 5,
+      "description": "Thin white strip below the header carrying the path (e.g. 'Personal > Home loans'); the current page is bold and unlinked. Absent on the home page.",
+      "evidence": "personal-home-loans, contact-us screenshots"
+    },
+    {
+      "name": "site-footer",
+      "presentOn": 5,
+      "of": 5,
+      "height": 592,
+      "description": "Four-column link directory under the headings Quick links, About us, Policies and terms, Connect with us; a 'Top' back-to-top link; six social destinations (LinkedIn, Facebook, Instagram, YouTube, X, TikTok), each marked ', opens in new window'; then the regulatory block (Banking Code of Practice, Financial Services Guide, Modern slavery statement, nab.com.au/TMD).",
+      "headings": ["Quick links", "About us", "Policies and terms", "Connect with us"],
+      "evidence": "identical heading sequence and link fingerprint on all 5 captured pages"
+    },
+    {
+      "name": "site-search",
+      "presentOn": 5,
+      "of": 5,
+      "description": "GET form to /search with a single field named 'term', labelled 'Search nab.com.au'. Rendered twice per page (desktop header + mobile drawer).",
+      "evidence": "form[action='/search'] on all 5 pages"
+    },
+    {
+      "name": "feedback-side-tab",
+      "presentOn": 1,
+      "of": 5,
+      "description": "Fixed red 'Give Feedback' tab on the right viewport edge.",
+      "evidence": "personal-home-loans screenshot"
+    }
+  ],
+  "iconFont": null,
+  "voice": {
+    "heroHeadline": "Ready for a new everyday account?",
+    "heroSubcopy": "With our NAB Classic Banking account you'll get flexible access to your money and be able to track your spending.",
+    "heroMicrocopy": "Open in less than 5 minutes",
+    "heroRotates": true,
+    "heroRotationEvidence": "A second live render of / and /personal returned the slide 'Looking for a Personal Loan?' from identical markup — the masthead is selected server-side per request. Alternate slide observed: 'Looking for a Personal Loan?'.",
+    "heroImage": "https://www.nab.com.au/content/dam/nab/images/campaigns/fy26-deposits-choose-transactions-banner-3000x1000.jpeg",
+    "heroImageNote": "1440x480 rendered. Two women climbing through a star-shaped hole punched in a pink wall, studio lighting rigs visible in frame.",
+    "heroMedium": null,
+    "primaryCTALabel": "Get started",
+    "firstParagraph": "With our NAB Classic Banking account you'll get flexible access to your money and be able to track your spending.",
+    "ctaSamples": ["Get started", "Find out more", "Talk to an expert", "Learn more", "Explore ways to bank with us", "View all calculators"],
+    "navItems": ["Personal", "Business", "Corporate", "About us", "Help and support"],
+    "footerHeadings": ["Quick links", "About us", "Policies and terms", "Connect with us"],
+    "headlineSamples": [
+      "Ready for a new everyday account?",
+      "We're here to help with whatever life looks like",
+      "More reasons to choose NAB",
+      "Thinking about refinancing?",
+      "Need help choosing an account?",
+      "Get the most out of business banking",
+      "Award-winning banking",
+      "Home loans",
+      "Home buying made easy",
+      "Tools and calculators",
+      "Find a business product",
+      "Earn up to 250,000 NAB Rewards Bonus Points",
+      "What do you need help with?",
+      "Save time getting in touch",
+      "Support services and other helpful information",
+      "Ways to bank with us",
+      "Interpreters available"
+    ],
+    "register": "Second person, present tense, plainly reassuring. Questions are used as headings to name the reader's situation ('Ready for a new everyday account?', 'Thinking about refinancing?', 'What do you need help with?') rather than to assert product superiority. Sentences are short and unhedged in the promise, then immediately qualified by a separate compliance sentence ('Other fees and charges apply. Consider the T&Cs, TMD and if right for you.'). Effort is quantified wherever possible — 'Open in less than 5 minutes', 'Schedule your chat in 2 minutes.' The brand line is 'more than money'.",
+    "antiReferences": "No exclamation marks, no superlatives about the bank itself except where externally awarded and cited (Finder Awards 2026, Coalition Greenwich study), no jargon in headings, no urgency devices beyond dated promotional terms."
+  },
+  "voiceTable": {
+    "headingsAreQuestions": 7,
+    "headingsTotal": 17,
+    "note": "41% of section headings are questions addressed to the reader — the single strongest voice signal on the site."
+  },
+  "crossPromo": {
+    "detected": true,
+    "description": "Every captured page carries the same four mega-menu promo panels (deposits campaign, pay-by-card, Jocelyn Bloor masthead, international money transfer), so those four 1440x480 rasters appear in the media inventory of all 5 pages regardless of topic.",
+    "note": "This is navigation chrome, not page content — downstream phases must not treat these images as page-level hero candidates."
+  },
+  "register": "brand"
+}

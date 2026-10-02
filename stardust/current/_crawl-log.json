@@ -1,0 +1,452 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:extract",
+    "writtenAt": "2026-09-22T01:55:57.310Z",
+    "againstInput": "https://www.nab.com.au/",
+    "stardustVersion": "0.10.0"
+  },
+  "discovery": {
+    "source": "sitemap.xml",
+    "sourceUrl": "https://www.nab.com.au/sitemap.xml",
+    "robotsSitemapDirective": "https://www.nab.com.au/sitemap.xml",
+    "fetchedAt": "2026-09-22T01:55:57.311Z",
+    "fetchTechnique": "headless",
+    "discoveredCount": 2290,
+    "afterFilterCount": 2224,
+    "filteredAsJunk": [],
+    "requiresAuth": [
+      "https://www.nab.com.au/personal/buy-now-pay-later/terms-conditions/account-limit-available-spend",
+      "https://www.nab.com.au/business/payments-and-merchants/ecommerce-and-online-payments/nab-gateway/support-centre/login",
+      "https://www.nab.com.au/business/payments-and-merchants/ecommerce-and-online-payments/nab-gateway/support-centre/account-creation",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/add-account-related-entity",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/identification-form",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/action-amendments",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/help-via-secure-message",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/request-service-via-secure-message",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/update-details",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/account-preferred-name",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/change-account-access",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/assign-access-account-my-business",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/self-service/register-reporting-service",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/login",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/reset",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/reset-mobile-token",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/replace-physical-token",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/activate-login-mobile-token",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/set-pin-physical-token",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/mobile-activate-login-administrator",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/administrator-reset-password",
+      "https://www.nab.com.au/business/online-banking/nab-connect/help/admin/passwords-tokens/replace-mobile-token"
+    ],
+    "requiresAuthCount": 66,
+    "malformed": [],
+    "waitMode": "medium",
+    "waitModeAutoDetect": null,
+    "cap": 5,
+    "cappedAt": 5,
+    "capSource": "default",
+    "userChoice": null,
+    "concurrency": 4,
+    "kept": [
+      {
+        "url": "https://www.nab.com.au/",
+        "slug": "index",
+        "priority": 1,
+        "lastmod": "2026-09-14T01:27:07+00:00",
+        "score": 15,
+        "breakdown": {
+          "home": 10,
+          "sitemap priority": 5
+        }
+      },
+      {
+        "url": "https://www.nab.com.au/personal",
+        "slug": "personal",
+        "priority": 1,
+        "lastmod": "2026-08-31T06:30:04+00:00",
+        "score": 12,
+        "breakdown": {
+          "IA-pillar keyword": 5,
+          "sitemap priority": 5,
+          "shallow path": 2
+        }
+      },
+      {
+        "url": "https://www.nab.com.au/business",
+        "slug": "business",
+        "priority": 1,
+        "lastmod": "2026-09-10T03:48:52+00:00",
+        "score": 12,
+        "breakdown": {
+          "IA-pillar keyword": 5,
+          "sitemap priority": 5,
+          "shallow path": 2
+        }
+      },
+      {
+        "url": "https://www.nab.com.au/personal/home-loans",
+        "slug": "personal-home-loans",
+        "priority": 0.8,
+        "lastmod": "2026-09-16T15:04:02+00:00",
+        "score": 8,
+        "breakdown": {
+          "IA-pillar keyword": 5,
+          "sitemap priority": 4,
+          "extra depth": -1
+        }
+      },
+      {
+        "url": "https://www.nab.com.au/contact-us",
+        "slug": "contact-us",
+        "priority": 1,
+        "lastmod": "2026-06-23T04:16:44+00:00",
+        "score": 12,
+        "breakdown": {
+          "IA-pillar keyword": 5,
+          "sitemap priority": 5,
+          "shallow path": 2
+        }
+      }
+    ],
+    "cut": [
+      {
+        "url": "https://www.nab.com.au/about-us",
+        "slug": "about-us",
+        "reason": "below cap",
+        "score": 12
+      },
+      {
+        "url": "https://www.nab.com.au/corporate",
+        "slug": "corporate",
+        "reason": "below cap",
+        "score": 12
+      },
+      {
+        "url": "https://www.nab.com.au/contact-us/business",
+        "slug": "contact-us__business",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/ai-for-business",
+        "slug": "business__ai-for-business",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/business-benefits",
+        "slug": "business__business-benefits",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/goodies",
+        "slug": "personal__goodies",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/about-us/board-of-directors",
+        "slug": "about-us__board-of-directors",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/online-banking",
+        "slug": "business__online-banking",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/about-us/promotions",
+        "slug": "about-us__promotions",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/small-business",
+        "slug": "business__small-business",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/industry",
+        "slug": "business__industry",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/insurance",
+        "slug": "personal__insurance",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/personal-loans",
+        "slug": "personal__personal-loans",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/business-bank-accounts",
+        "slug": "business__business-bank-accounts",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/women-in-business",
+        "slug": "business__women-in-business",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/about-us/careers",
+        "slug": "about-us__careers",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/banking-in-australia",
+        "slug": "personal__banking-in-australia",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/about-us/corporate-governance",
+        "slug": "about-us__corporate-governance",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/payments-and-merchants",
+        "slug": "business__payments-and-merchants",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/about-us/security",
+        "slug": "about-us__security",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/credit-cards",
+        "slug": "personal__credit-cards",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/business-credit-cards",
+        "slug": "business__business-credit-cards",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/private-wealth",
+        "slug": "personal__private-wealth",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/buy-now-pay-later",
+        "slug": "personal__buy-now-pay-later",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/contact-us/feedback",
+        "slug": "contact-us__feedback",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/corporate/global-relationships",
+        "slug": "corporate__global-relationships",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/premier",
+        "slug": "personal__premier",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/about-us/shareholder-centre",
+        "slug": "about-us__shareholder-centre",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/about-us/payment-service-availability",
+        "slug": "about-us__payment-service-availability",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/about-us/executive-leadership-team",
+        "slug": "about-us__executive-leadership-team",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/bank-accounts",
+        "slug": "personal__bank-accounts",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/travel",
+        "slug": "personal__travel",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/business/offers",
+        "slug": "business__offers",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/interest-rates-fees-and-charges",
+        "slug": "personal__interest-rates-fees-and-charges",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/online-banking",
+        "slug": "personal__online-banking",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/corporate/specialist-solutions",
+        "slug": "corporate__specialist-solutions",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/corporate/industry-expertise",
+        "slug": "corporate__industry-expertise",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/book-appointment",
+        "slug": "personal__book-appointment",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/personal/workplace-banking",
+        "slug": "personal__workplace-banking",
+        "reason": "below cap",
+        "score": 8
+      },
+      {
+        "url": "https://www.nab.com.au/contact-us/call-from-app",
+        "slug": "contact-us__call-from-app",
+        "reason": "below cap",
+        "score": 8
+      }
+    ],
+    "cutTotal": 2219,
+    "scores": {
+      "rules": [
+        "home",
+        "IA-pillar keyword",
+        "sitemap priority",
+        "shallow path",
+        "extra depth",
+        "date-like archive",
+        "version/test marker",
+        "auth-walled"
+      ],
+      "sample": {
+        "url": "https://www.nab.com.au/personal",
+        "slug": "personal",
+        "priority": 1,
+        "lastmod": "2026-08-31T06:30:04+00:00",
+        "score": 12,
+        "breakdown": {
+          "IA-pillar keyword": 5,
+          "sitemap priority": 5,
+          "shallow path": 2
+        }
+      }
+    },
+    "notes": [
+      "Sitemap is a single flat <urlset> (no index, no recursion needed).",
+      "Junk filter matched 0 URLs — an AEM-managed sitemap carries no draft/test leftovers.",
+      "66 auth-walled URLs excluded from selection by the /login|/account heuristic.",
+      "Selection satisfies the page-type checklist: home + 2 IA pillar landings + 1 product template + 1 form/contact template."
+    ]
+  },
+  "consent": {
+    "method": "auto"
+  },
+  "favicon": {
+    "url": "https://www.nab.com.au/etc.clientlibs/nab/clientlibs/clientlib-site/resources/images/favicon.ico",
+    "file": "assets/favicon.ico"
+  },
+  "crawl": {
+    "startedAt": "2026-09-22T01:03:30Z",
+    "finishedAt": "2026-09-22T01:04:20Z",
+    "successes": 5,
+    "failures": []
+  },
+  "visionCheck": [
+    {
+      "slug": "index",
+      "verdict": "recaptured",
+      "notes": "Screenshot shows masthead 'Ready for a new everyday account?' over a photo with a white overlay card; a second render returned a different slide ('Looking for a Personal Loan?') from identical markup. Resolved as a server-rotated masthead and recorded in _brand-extraction.json#voice.heroRotates; the screenshot-verified slide is the recorded hero."
+    },
+    {
+      "slug": "personal",
+      "verdict": "recaptured",
+      "notes": "Same rotating masthead as home; recorded with the same rotation caveat."
+    },
+    {
+      "slug": "business",
+      "verdict": "ok",
+      "notes": "Pixels confirm the record: full-bleed red masthead, H1 'Earn up to 250,000 NAB Rewards Bonus Points', black CTA (correct — a red button would vanish on red), 5-up card row beneath."
+    },
+    {
+      "slug": "personal-home-loans",
+      "verdict": "ok",
+      "notes": "Pixels confirm hero 'Home loans', green 'Talk to an expert' CTA, sticky sub-nav, icon-card calculator grid, fixed red feedback side-tab."
+    },
+    {
+      "slug": "contact-us",
+      "verdict": "ok",
+      "notes": "Pixels confirm eyebrow 'HELP AND SUPPORT' + H1 'Contact Us' over a photo, topic-selector button row, 6-up support card grid. The resolver concatenated eyebrow+H1; the brand surface records them split."
+    }
+  ],
+  "mediaCoverage": {
+    "cssBackgroundsAllZero": true,
+    "verdict": "true reading",
+    "basis": "Independently re-verified by a second capture implementation walking element and ::before/::after computed backgroundImage on all 5 pages. NAB composes every masthead and card image as <img>/<picture> at 1440x480; 16-29 rasters with intrinsic width >= 600 per page. Not a silently-failed background walk."
+  },
+  "siblingCandidates": [
+    {
+      "origin": "https://www.nabtrade.com.au",
+      "confidence": "medium",
+      "evidence": "linked from the Personal mega-menu as 'Online investing - nabtrade', marked ', opens in new window'",
+      "decision": "not included (no --brand-source given)"
+    },
+    {
+      "origin": "https://www.nab.com.au/about-us/careers",
+      "confidence": "n/a",
+      "evidence": "same origin — footer link, not a sibling property",
+      "decision": "not applicable"
+    }
+  ],
+  "limitations": [
+    "Default locale only (en-AU); NAB serves no other locale from this origin.",
+    "5 of 2,224 filtered pages extracted — sufficient for cross-page brand aggregation, not for a migration inventory.",
+    "Stardust does not lock: two concurrent extracts on this project would be last-write-wins."
+  ]
+}

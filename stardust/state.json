@@ -1,0 +1,152 @@
+{
+  "_provenance": {
+    "writtenBy": "stardust:deploy",
+    "writtenAt": "2026-09-25T02:49:13.451Z",
+    "againstInput": "https://www.nab.com.au/",
+    "stardustVersion": "0.10.0",
+    "previous": {
+      "writtenBy": "stardust:replica",
+      "writtenAt": "2026-09-23T02:11:20.522Z"
+    }
+  },
+  "site": {
+    "name": "NAB",
+    "originUrl": "https://www.nab.com.au/",
+    "deployUrl": null,
+    "extractedAt": "2026-09-22T01:55:57.310Z",
+    "pageCap": 5,
+    "totalDiscovered": 2224,
+    "crawled": 5
+  },
+  "direction": {
+    "resolvedAt": "2026-09-22T02:09:52.559Z",
+    "phrase": "replica — home page only",
+    "directionFile": "stardust/direction.md",
+    "iaFidelity": "verbatim"
+  },
+  "flow": "replica",
+  "flowChosenAt": "2026-09-22T02:09:52.559Z",
+  "flowSource": "user-phrase",
+  "pages": [
+    {
+      "slug": "index",
+      "url": "https://www.nab.com.au/",
+      "title": "Bank with NAB | Bank accounts, home loans and credit cards - NAB",
+      "type": "home",
+      "status": "migrated",
+      "history": [
+        {
+          "status": "extracted",
+          "at": "2026-09-22T01:55:57.310Z"
+        },
+        {
+          "status": "prototyped",
+          "at": "2026-09-23T02:11:20.522Z"
+        },
+        {
+          "status": "approved",
+          "at": "2026-09-23T02:11:20.522Z"
+        },
+        {
+          "status": "migrated",
+          "at": "2026-09-25T02:49:13.451Z"
+        }
+      ],
+      "stale": false,
+      "staleReason": null,
+      "currentStatePath": "stardust/current/pages/index.json",
+      "prototypePath": "stardust/prototypes/index-proposed.html",
+      "migratedPath": "content/index.html",
+      "approvedBy": "hands-off",
+      "approvedAt": "2026-09-23T02:11:20.522Z",
+      "gate": {
+        "progress": "stardust/replica/progress.json",
+        "breakpoints": {
+          "360": {
+            "pixel": 2.24,
+            "heightDelta": 0,
+            "structuralRed": 0
+          },
+          "1440": {
+            "pixel": 0.99,
+            "heightDelta": 0,
+            "structuralRed": 0
+          }
+        }
+      },
+      "migration": {
+        "at": "2026-09-25T02:49:13.451Z",
+        "target": "aem-edge-delivery-services",
+        "blocks": {
+          "authored": [
+            "award",
+            "business-panel",
+            "contact-tiles",
+            "disclaimer",
+            "feature-pair",
+            "help-grid",
+            "interpreters",
+            "link-cards",
+            "masthead",
+            "nrs",
+            "quicklinks"
+          ],
+          "chrome": [
+            "header",
+            "footer"
+          ],
+          "boilerplateUntouched": [
+            "cards",
+            "columns",
+            "fragment",
+            "hero",
+            "widget"
+          ]
+        },
+        "contentDocuments": [
+          "content/index.html",
+          "content/nav.html",
+          "content/footer.html"
+        ],
+        "gate": {
+          "againstPrototype": {
+            "360": {
+              "pixel": 0,
+              "heightDelta": 0
+            },
+            "1440": {
+              "pixel": 0,
+              "heightDelta": 0
+            }
+          },
+          "dynamicFeatures": {
+            "checked": [
+              "D1",
+              "D2",
+              "D5"
+            ],
+            "assertions": 13,
+            "failures": 0
+          },
+          "editability": {
+            "nodesInstrumented": 83,
+            "lost": 0,
+            "duplicated": 0,
+            "unwrapped": 13
+          }
+        },
+        "notes": [
+          "The EDS build is pixel-identical to the approved prototype at both breakpoints, so it inherits the Phase 4 numbers against live NAB by construction.",
+          "deployUrl is null: no DA_TOKEN is present in this environment, so the DA Source API push could not run.",
+          "Image sources are repo-relative /img/... and must be rewritten to content.da.live/{org}/{repo}/media/... at DA rollout.",
+          "The ~3000-line .replica-offscreen surface from the prototype was not ported; it is capture scaffolding, not page content.",
+          "Mega-menu and footer-accordion OPEN-state CSS was never captured (live lazy-loads it) and is a minimal reconstruction.",
+          "Footer accordion panels borrow their matching desktop column nodes at mobile rather than inventing copy.",
+          "The sr-only \", opens in new window\" suffix is applied by rule; live NAB is internally inconsistent about it.",
+          "styles.css carries a body::after 24px spacer standing in for the tracking-pixel line box; remove it when a real analytics container lands (D7).",
+          "npm run lint:js could not run (@babel/core is not installed); correctness was established by rendering plus the behavioural and editability gates."
+        ]
+      }
+    }
+  ]
+}

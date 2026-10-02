@@ -1,0 +1,60 @@
+/*
+ * Help grid.
+ * Desktop: index.css 238-250. The prototype's .life-separator (a 1px rule with
+ *          72px above and .help-grid's own 72px below) is drawn here as the
+ *          block's top border, which reproduces the same 72/1/72 rhythm with
+ *          no extra element in the authored content.
+ * Mobile:  mobile.css 394-404 (56px above the rule, 47px below).
+ */
+
+.help-grid {
+  display: grid;
+  width: var(--container);
+  margin: 72px auto 0;
+  padding-top: 72px;
+  border-top: 1px solid var(--halo-grey);
+  gap: 32px;
+  grid-template-columns: repeat(2, 608px);
+}
+
+.help-grid .help-grid__prose h2 {
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.help-grid .help-grid__prose p {
+  margin-top: 24px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media (max-width: 767px) {
+  .help-grid {
+    display: block;
+    width: 360px;
+    margin: 56px auto 0;
+
+    /*
+     * mobile.css keeps .help-grid at 312px, but the rule above it
+     * (.life-separator) is full-bleed. Drawing that rule as this block's
+     * border means the block must span 360px and inset its own content by 24
+     * to land the columns where the capture has them.
+     *
+     * 47px in mobile.css, plus the 8px UA margin below the prototype's <hr>.
+     * At desktop that margin collapses into .help-grid's own 72px; at mobile
+     * .help-grid has no top margin, so the 8px survives and must be added here.
+     */
+    padding: 55px 24px 0;
+  }
+
+  .help-grid .help-grid__prose h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .help-grid > .cmp-list {
+    margin-top: 16px;
+  }
+}
